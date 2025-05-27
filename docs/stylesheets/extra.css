@@ -56,8 +56,9 @@ body {
   border-bottom: 3px double var(--border-brown);
   position: relative;
   height: auto;
-  min-height: 3rem;
+  min-height: 4rem;
   padding: 0.5rem 0;
+  z-index: 10;
 }
 
 .md-header::after {
@@ -73,6 +74,11 @@ body {
 .md-header__inner {
   max-width: 100%;
   padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 3rem;
 }
 
 .md-header__title {
@@ -80,22 +86,47 @@ body {
   font-weight: 700;
   color: var(--ink-dark);
   text-shadow: 1px 1px 2px rgba(139, 115, 85, 0.3);
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   position: relative;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0;
   padding: 0.5rem 0;
   white-space: nowrap;
   overflow: visible;
   max-width: none;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  z-index: 11;
+}
+
+/* Fix the md-ellipsis span inside the title */
+.md-header__title .md-ellipsis {
+  overflow: visible !important;
+  text-overflow: clip !important;
+  white-space: nowrap !important;
+  display: inline !important;
+  max-width: none !important;
+  width: auto !important;
+  position: static !important;
+  vertical-align: baseline !important;
 }
 
 .md-header__title::before,
 .md-header__title::after {
   content: "❦";
   color: var(--accent-gold);
-  font-size: 0.8em;
-  margin: 0 8px;
+  font-size: 0.9em;
+  margin: 0 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Ensure header topic/breadcrumb doesn't overlap */
+.md-header__topic {
+  position: relative;
+  z-index: 9;
+  margin-left: 1rem;
 }
 
 /* Fix navigation tabs positioning */
@@ -103,16 +134,22 @@ body {
   background: rgba(244, 241, 232, 0.95);
   border-top: 1px solid var(--border-brown);
   margin-top: 0;
+  position: relative;
+  z-index: 8;
+  clear: both;
 }
 
 .md-tabs__list {
   margin: 0;
   padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .md-tabs__item {
   height: auto;
   padding: 0.5rem 0;
+  flex-shrink: 0;
 }
 
 .md-tabs__link {
@@ -123,8 +160,10 @@ body {
   border-radius: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   transition: all 0.3s ease;
+  display: block;
+  white-space: nowrap;
 }
 
 .md-tabs__link:hover,
@@ -139,6 +178,9 @@ body {
   margin: 0 0.2rem;
   padding: 0.2rem;
   color: var(--ink-medium);
+  position: relative;
+  z-index: 11;
+  flex-shrink: 0;
 }
 
 .md-header__button:hover {
@@ -148,6 +190,9 @@ body {
 /* Ensure search doesn't overlap */
 .md-search {
   padding: 0.2rem 0;
+  position: relative;
+  z-index: 11;
+  flex-shrink: 0;
 }
 
 .md-search__form {
@@ -158,15 +203,23 @@ body {
 
 /* Mobile responsive header */
 @media screen and (max-width: 768px) {
+  .md-header {
+    min-height: 3.5rem;
+  }
+  
+  .md-header__inner {
+    min-height: 2.5rem;
+  }
+  
   .md-header__title {
     font-size: 1rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   
   .md-header__title::before,
   .md-header__title::after {
-    font-size: 0.7em;
-    margin: 0 5px;
+    font-size: 0.8em;
+    margin: 0 4px;
   }
   
   .md-tabs__link {
@@ -183,6 +236,11 @@ body {
   
   .md-header__title {
     letter-spacing: 1px;
+    font-size: 0.9rem;
+  }
+  
+  .md-header__inner {
+    flex-wrap: wrap;
   }
 }
 
