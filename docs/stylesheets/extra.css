@@ -212,7 +212,7 @@ body {
 
 .md-tabs__link:hover,
 .md-tabs__link--active {
-  color: var(--ink-dark);
+  color: var(--ink-dark) !important;
   background: rgba(184, 134, 11, 0.1);
   border-bottom: 2px solid var(--accent-gold);
 }
@@ -376,9 +376,19 @@ body {
 /* Also style the tabs when active */
 .md-tabs__link--active {
   color: var(--ink-dark) !important;
-  background: rgba(44, 24, 16, 0.08) !important;
+  background: transparent !important;
   border-bottom: 3px solid var(--ink-dark) !important;
   font-weight: 600 !important;
+  text-decoration: bold !important;
+  text-underline-offset: 2px !important;
+}
+
+/* Force active tab text to stay dark - override Material theme */
+.md-tabs__item--active .md-tabs__link,
+.md-tabs__link[aria-current="page"] {
+  color: var(--ink-dark) !important;
+  text-decoration: bold !important;
+  text-underline-offset: 2px !important;
 }
 
 /* Content area like manuscript page */
