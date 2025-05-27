@@ -64,10 +64,7 @@ jobs:
       - name: Preprocess Obsidian Features
         run: |
           python preprocess_dataviews.py
-          # First convert simple links
-          find .site_content/ -type f -name "*.md" -exec sed -i 's/\[\[\([^|]*\)\]\]/[\1](\/Core%20Realms\/\1\/)/g' {} \;
-          # Then convert links with display text
-          find .site_content/ -type f -name "*.md" -exec sed -i 's/\[\[\([^|]*\)|\([^]]*\)\]\]/[\2](\/Core%20Realms\/\1\/)/g' {} \;
+          python convert_links.py
           echo "Preprocessed Obsidian features in markdown files."
 
       # Step 6: Build and Deploy MkDocs Site
