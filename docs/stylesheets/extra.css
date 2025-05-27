@@ -22,12 +22,31 @@
 body {
   background-color: var(--paper-bg);
   background-image: 
-    radial-gradient(circle at 20% 80%, rgba(139, 115, 85, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(139, 115, 85, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 40% 40%, rgba(139, 115, 85, 0.03) 0%, transparent 50%);
+    /* Paper fiber texture */
+    radial-gradient(circle at 20% 80%, rgba(139, 115, 85, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(139, 115, 85, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(139, 115, 85, 0.04) 0%, transparent 50%),
+    radial-gradient(circle at 60% 70%, rgba(139, 115, 85, 0.03) 0%, transparent 30%),
+    radial-gradient(circle at 10% 30%, rgba(139, 115, 85, 0.05) 0%, transparent 40%),
+    radial-gradient(circle at 90% 60%, rgba(139, 115, 85, 0.04) 0%, transparent 35%),
+    /* Paper grain */
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 1px,
+      rgba(139, 115, 85, 0.01) 1px,
+      rgba(139, 115, 85, 0.01) 2px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 1px,
+      rgba(139, 115, 85, 0.01) 1px,
+      rgba(139, 115, 85, 0.01) 2px
+    );
 }
 
-/* Main content area with paper effect */
+/* Main content area with enhanced paper effect */
 .md-main {
   background: var(--paper-bg);
   position: relative;
@@ -41,10 +60,34 @@ body {
   right: 0;
   bottom: 0;
   background-image: 
-    radial-gradient(circle at 25% 25%, var(--paper-stain) 0%, transparent 2%),
+    /* Age spots and stains */
+    radial-gradient(circle at 25% 25%, var(--paper-stain) 0%, transparent 3%),
     radial-gradient(circle at 75% 75%, var(--paper-stain) 0%, transparent 2%),
-    radial-gradient(circle at 50% 10%, var(--paper-stain) 0%, transparent 1%),
-    radial-gradient(circle at 10% 90%, var(--paper-stain) 0%, transparent 1%);
+    radial-gradient(circle at 50% 10%, var(--paper-stain) 0%, transparent 1.5%),
+    radial-gradient(circle at 10% 90%, var(--paper-stain) 0%, transparent 2%),
+    radial-gradient(circle at 85% 15%, rgba(139, 115, 85, 0.08) 0%, transparent 1%),
+    radial-gradient(circle at 15% 60%, rgba(139, 115, 85, 0.06) 0%, transparent 1.5%),
+    radial-gradient(circle at 70% 40%, rgba(139, 115, 85, 0.05) 0%, transparent 1%),
+    radial-gradient(circle at 30% 80%, rgba(139, 115, 85, 0.07) 0%, transparent 2%),
+    /* Subtle paper creases */
+    linear-gradient(
+      120deg,
+      transparent 0%,
+      transparent 48%,
+      rgba(139, 115, 85, 0.02) 49%,
+      rgba(139, 115, 85, 0.02) 51%,
+      transparent 52%,
+      transparent 100%
+    ),
+    linear-gradient(
+      60deg,
+      transparent 0%,
+      transparent 78%,
+      rgba(139, 115, 85, 0.015) 79%,
+      rgba(139, 115, 85, 0.015) 81%,
+      transparent 82%,
+      transparent 100%
+    );
   pointer-events: none;
   z-index: -1;
 }
@@ -305,18 +348,6 @@ body {
     inset 0 0 120px rgba(139, 115, 85, 0.05);
   border: 1px solid var(--border-brown);
   position: relative;
-}
-
-.md-content::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: 
-    linear-gradient(90deg, transparent 0%, transparent 48%, rgba(139, 115, 85, 0.1) 49%, rgba(139, 115, 85, 0.1) 51%, transparent 52%, transparent 100%);
-  pointer-events: none;
 }
 
 /* Manuscript-style typography */

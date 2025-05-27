@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/The Witherwild/The Witherwild.md",
+                "file": "docs/Ancestry/Clank Ancestry.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Witherwild"
+              "title": "Clank Ancestry"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/The Witherwild/The Witherwild.md",
+                "file": "docs/Ancestry/Clank Ancestry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The Witherwild"
+              "title": "Backlinks for Clank Ancestry"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/The Witherwild/The Witherwild.md",
+                "file": "docs/Ancestry/Clank Ancestry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from The Witherwild"
+              "title": "Outgoing links from Clank Ancestry"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/The Witherwild/The Witherwild.md",
+                "file": "docs/Ancestry/Clank Ancestry.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Witherwild"
+              "title": "Outline of Clank Ancestry"
             }
           }
         ],
@@ -168,8 +168,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bc649daa4179878",
+  "active": "56c649df55b3ab09",
   "lastOpenFiles": [
+    "docs/The Witherwild/The Witherwild.md",
     "docs/stylesheets/extra.css",
     "docs/stylesheets",
     "docs/The Witherwild/Serpent's Sickness.md",
@@ -183,7 +184,6 @@
     "docs/The Witherwild/Communities/Veythari.md",
     "docs/The Witherwild/Communities/Feltharion.md",
     "docs/The Witherwild/Communities/Community.md",
-    "docs/The Witherwild/The Witherwild.md",
     "docs/The Witherwild/Fanewick.md",
     "docs/The Witherwild/Communities",
     "docs/The Witherwild",
@@ -205,7 +205,6 @@
     "docs/Ancestry",
     "docs/Core Realms",
     "site/search/search_index.json",
-    "site/index.html",
     "site/img/grid.png"
   ]
 }
