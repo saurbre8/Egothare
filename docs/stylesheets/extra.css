@@ -5,8 +5,8 @@
 
 /* Paper/Parchment color palette */
 :root {
-  --paper-bg: #f4f1e8;              /* Aged paper background */
-  --paper-bg-dark: #ede6d3;         /* Slightly darker paper */
+  --paper-bg: #f7f4e9;              /* Slightly warmer aged paper */
+  --paper-bg-dark: #f0ead5;         /* Slightly darker paper with warmth */
   --paper-shadow: #d4c4a8;          /* Paper shadow */
   --ink-dark: #2c1810;              /* Dark brown ink */
   --ink-medium: #4a3728;            /* Medium brown ink */
@@ -15,7 +15,8 @@
   --accent-red: #8b0000;            /* Deep red ink */
   --border-brown: #8b7355;          /* Brown border */
   --text-faded: #5d4e37;            /* Faded ink */
-  --paper-stain: rgba(139, 115, 85, 0.1); /* Paper stains */
+  --paper-stain: rgba(139, 115, 85, 0.12); /* Slightly more visible paper stains */
+  --paper-age: rgba(160, 130, 98, 0.08);   /* Aging effect */
 }
 
 /* Paper texture background */
@@ -337,17 +338,103 @@ body {
   font-size: 0.8em;
 }
 
+/* Active/Selected navigation link styling */
+.md-nav__link--active,
+.md-nav__link[data-md-state="blur"],
+.md-nav__item--active > .md-nav__link,
+.md-nav__item .md-nav__link[aria-current="page"] {
+  background: rgba(44, 24, 16, 0.05) !important;
+  color: var(--ink-dark) !important;
+  border: 2px solid var(--ink-dark) !important;
+  box-shadow: inset 0 0 0 1px rgba(44, 24, 16, 0.2) !important;
+  font-weight: 600 !important;
+  position: relative;
+}
+
+.md-nav__link--active::before,
+.md-nav__link[data-md-state="blur"]::before,
+.md-nav__item--active > .md-nav__link::before,
+.md-nav__item .md-nav__link[aria-current="page"]::before {
+  content: "●";
+  position: absolute;
+  left: -15px;
+  color: var(--ink-dark);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Also style the tabs when active */
+.md-tabs__link--active {
+  color: var(--ink-dark) !important;
+  background: rgba(44, 24, 16, 0.08) !important;
+  border-bottom: 3px solid var(--ink-dark) !important;
+  font-weight: 600 !important;
+}
+
 /* Content area like manuscript page */
 .md-content {
   max-width: 1000px;
-  background: var(--paper-bg);
+  background: 
+    /* Paper texture overlay */
+    radial-gradient(circle at 30% 20%, rgba(139, 115, 85, 0.03) 0%, transparent 40%),
+    radial-gradient(circle at 70% 80%, rgba(139, 115, 85, 0.025) 0%, transparent 35%),
+    radial-gradient(circle at 10% 60%, rgba(139, 115, 85, 0.02) 0%, transparent 30%),
+    radial-gradient(circle at 90% 30%, rgba(139, 115, 85, 0.035) 0%, transparent 45%),
+    /* Base paper color */
+    var(--paper-bg);
   margin: 2rem auto;
   padding: 3rem;
   box-shadow: 
-    0 0 20px rgba(139, 115, 85, 0.3),
-    inset 0 0 120px rgba(139, 115, 85, 0.05);
+    /* Main paper shadow */
+    0 8px 32px rgba(139, 115, 85, 0.4),
+    0 4px 16px rgba(139, 115, 85, 0.3),
+    /* Inner paper texture shadow */
+    inset 0 0 120px rgba(139, 115, 85, 0.08),
+    inset 0 0 60px rgba(139, 115, 85, 0.05),
+    /* Paper edge highlights */
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 1px 0 0 rgba(255, 255, 255, 0.05),
+    inset -1px 0 0 rgba(139, 115, 85, 0.1),
+    inset 0 -1px 0 rgba(139, 115, 85, 0.1);
   border: 1px solid var(--border-brown);
   position: relative;
+  /* Paper texture filter */
+  filter: contrast(1.02) brightness(0.98);
+}
+
+/* Add paper fiber texture to content */
+.md-content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    /* Fine paper grain */
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 1px,
+      rgba(139, 115, 85, 0.008) 1px,
+      rgba(139, 115, 85, 0.008) 2px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 1px,
+      rgba(139, 115, 85, 0.008) 1px,
+      rgba(139, 115, 85, 0.008) 2px
+    ),
+    /* Random paper fibers */
+    radial-gradient(ellipse 2px 1px at 20% 30%, rgba(139, 115, 85, 0.1) 0%, transparent 100%),
+    radial-gradient(ellipse 1px 2px at 80% 70%, rgba(139, 115, 85, 0.08) 0%, transparent 100%),
+    radial-gradient(ellipse 3px 1px at 40% 60%, rgba(139, 115, 85, 0.06) 0%, transparent 100%),
+    radial-gradient(ellipse 1px 3px at 60% 20%, rgba(139, 115, 85, 0.09) 0%, transparent 100%),
+    radial-gradient(ellipse 2px 1px at 10% 80%, rgba(139, 115, 85, 0.07) 0%, transparent 100%),
+    radial-gradient(ellipse 1px 2px at 90% 40%, rgba(139, 115, 85, 0.05) 0%, transparent 100%);
+  pointer-events: none;
+  opacity: 0.6;
 }
 
 /* Manuscript-style typography */
