@@ -60,7 +60,7 @@ jobs:
       # Step 5: Preprocess Obsidian Features
       - name: Preprocess Obsidian Features
         run: |
-          python .scripts/preprocess_dataviews.py
+          python .preprocess_dataviews.py
           find .site_content/ -type f -name "*.md" -exec sed -i 's/\[\[\(.*\)\]\]/[\1](\1.md)/g' {} \;
           echo "Preprocessed Obsidian features in markdown files."
 
