@@ -30,8 +30,8 @@ def convert_obsidian_links(content, file_map):
         # Look up the actual path in our file map
         actual_path = file_map.get(link_path, link_path)
         
-        # Add leading slash to make it absolute from root
-        final_path = f"/{actual_path}/"
+        # Add leading slash and .md extension
+        final_path = f"/{actual_path}.md"
         
         # Return the markdown link format
         return f"[{display_text}]({final_path})"
