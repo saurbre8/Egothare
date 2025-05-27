@@ -6,3 +6,5 @@ site_name: Egothare
 site_url: https://saurbre8.github.io/Egothare
 site_author: Brenden S
 site_description: A description of your site
+docs_dir: .
+site_dir: site
