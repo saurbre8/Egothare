@@ -31,7 +31,7 @@ def convert_obsidian_links(content, file_map):
         actual_path = file_map.get(link_path)
         
         # Use absolute path from site root with leading slash
-        final_path = f"/{actual_path}/"
+        final_path = f"/Egothare/{actual_path}/"
         
         # Return the markdown link format
         return f"[{display_text}]({final_path})"
