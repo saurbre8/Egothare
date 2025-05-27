@@ -11,14 +11,10 @@
             "id": "56c649df55b3ab09",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core Realms/Circles Below.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Circles Below"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Realms/Circles Below.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Circles Below"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Realms/Circles Below.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Circles Below"
+              "title": "Outgoing links"
             }
           },
           {
@@ -170,21 +164,42 @@
   },
   "active": "3bc649daa4179878",
   "lastOpenFiles": [
+    "docs/The Witherwild/Communities/Veythari.md",
+    "docs/The Witherwild/Communities/Feltharion.md",
+    "docs/The Witherwild/Communities/Community.md",
+    "docs/The Witherwild/The Witherwild.md",
+    "docs/The Witherwild/Serpent's Sickness.md",
+    "docs/The Witherwild/Haven.md",
+    "docs/The Witherwild/Fanewick.md",
+    "docs/The Witherwild/Communities",
+    "docs/The Witherwild",
+    "docs/Ancestry/Simiah Ancestry.md",
+    "docs/Ancestry/Ribbet Ancestry.md",
+    "docs/Ancestry/Orc Ancestry.md",
+    "docs/Ancestry/Katari Ancestry.md",
+    "docs/Ancestry/Infernis Ancestry.md",
+    "docs/Ancestry/Human Ancestry.md",
+    "docs/Ancestry/Halfling Ancestry.md",
+    "docs/Ancestry/Goblin Ancestry.md",
+    "docs/Ancestry/Giant Ancestry.md",
+    "docs/Ancestry/Galapa Ancestry.md",
+    "docs/Ancestry/Fungril Ancestry.md",
+    "docs/Ancestry/Firbolg Ancestry.md",
+    "docs/Ancestry/Faun Ancestry.md",
+    "docs/Ancestry/Faerie Ancestry.md",
+    "docs/Ancestry/Elf Ancestry.md",
+    "docs/Ancestry/Dwarf Ancestry.md",
+    "docs/Ancestry/Drakona Ancestry.md",
+    "docs/Ancestry/Clank Ancestry.md",
+    "docs/Ancestry",
+    "docs/Core Realms/Realms Beyond.md",
+    "docs/Core Realms",
     "site/search/search_index.json",
     "site/index.html",
     "site/sitemap.xml.gz",
     "site/sitemap.xml",
     "site/404.html",
     "site/webfonts/fa-v4compatibility.woff2",
-    "site/webfonts/fa-v4compatibility.ttf",
-    "site/webfonts/fa-solid-900.woff2",
-    "site/webfonts/fa-solid-900.ttf",
-    "site/webfonts/fa-regular-400.woff2",
-    "site/webfonts/fa-regular-400.ttf",
-    "site/img/grid.png",
-    "docs/index.md",
-    "Core Realms/Hallows Above.md",
-    "Core Realms/Circles Below.md",
-    "README.md"
+    "site/img/grid.png"
   ]
 }
