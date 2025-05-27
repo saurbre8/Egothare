@@ -1,7 +1,3 @@
----
-tags:
-  - publish-me
----
 
 The **Circles Below** are the collection of lower realms where many of the Forgotten Gods, those who fought the most passionately during the uprising, were banished.
 

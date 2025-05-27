@@ -8,9 +8,6 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -58,14 +55,15 @@ jobs:
               cp --parents "$file" .site_content/
             fi
           done
+          cp index.md .site_content/ || true
+          cp -r .overrides .site_content/
           echo "Files containing #publish-me (excluding excluded folders), index.md, and .overrides have been copied to .site_content/"
 
       # Step 5: Preprocess Obsidian Features
       - name: Preprocess Obsidian Features
         run: |
-          python preprocess_dataviews.py
-          python convert_links.py
-          find .site_content/ -type f -name "*.md" -exec sed -i 's/\[\[\(.*\)\]\]/[\1](\1\/)/g' {} \;
+          python .scripts/preprocess_dataviews.py
+          find .site_content/ -type f -name "*.md" -exec sed -i 's/\[\[\(.*\)\]\]/[\1](\1.md)/g' {} \;
           echo "Preprocessed Obsidian features in markdown files."
 
       # Step 6: Build and Deploy MkDocs Site

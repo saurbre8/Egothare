@@ -11,10 +11,14 @@
             "id": "56c649df55b3ab09",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/Core Realms/Circles Below.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Circles Below"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Core Realms/Circles Below.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Circles Below"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Core Realms/Circles Below.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Circles Below"
             }
           },
           {
@@ -136,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Realms/Circles Below.md",
+                "file": "docs/Core Realms/Circles Below.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -162,8 +168,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bc649daa4179878",
+  "active": "56c649df55b3ab09",
   "lastOpenFiles": [
+    "convert_links.py",
+    "docs/Core Realms/Hallows Above.md",
+    "Core Realms/Circles Below.md",
+    "docs/orig-deploy.yml",
+    "docs/deploy.yml",
     "docs/The Witherwild/Communities/Veythari.md",
     "docs/The Witherwild/Communities/Feltharion.md",
     "docs/The Witherwild/Communities/Community.md",
@@ -189,17 +200,12 @@
     "docs/Ancestry/Faerie Ancestry.md",
     "docs/Ancestry/Elf Ancestry.md",
     "docs/Ancestry/Dwarf Ancestry.md",
-    "docs/Ancestry/Drakona Ancestry.md",
-    "docs/Ancestry/Clank Ancestry.md",
     "docs/Ancestry",
-    "docs/Core Realms/Realms Beyond.md",
     "docs/Core Realms",
     "site/search/search_index.json",
     "site/index.html",
     "site/sitemap.xml.gz",
     "site/sitemap.xml",
-    "site/404.html",
-    "site/webfonts/fa-v4compatibility.woff2",
     "site/img/grid.png"
   ]
 }
