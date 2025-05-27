@@ -1,36 +1,80 @@
-/* Parchment Paper Theme for Egothare - Ancient Manuscript Style */
+/* ===================================================================
+   EGOTHARE PARCHMENT THEME - Ancient Manuscript Style
+   ===================================================================
+   
+   This stylesheet transforms MkDocs Material into an ancient manuscript appearance with parchment paper textures, medieval typography, and illuminated manuscript styling elements.
+   
+   Author: Egothare Project
+   Version: 1.0
+   Last Updated: 2025
+   ================================================================= */
 
-/* Import fantasy fonts suitable for paper/manuscript look */
+/* ===================================================================
+   1. FONT IMPORTS
+   ================================================================= */
+
+/* Import medieval and manuscript-appropriate fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700&family=Uncial+Antiqua&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Fira+Code:wght@300;400;500&display=swap');
 
-/* Paper/Parchment color palette */
+/* Font Usage:
+   - Cinzel Decorative: Ornate headers and titles (manuscript illumination style)
+   - Cinzel: Section headers and navigation (clean medieval serif)
+   - EB Garamond: Body text (readable manuscript serif)
+   - Uncial Antiqua: Special decorative elements
+   - Fira Code: Code blocks (modern monospace for readability)
+*/
+
+/* ===================================================================
+   2. COLOR PALETTE & CSS VARIABLES
+   ================================================================= */
+
+/* Define the complete color scheme for aged parchment and medieval inks */
 :root {
-  --paper-bg: #f7f4e9;              /* Slightly warmer aged paper */
-  --paper-bg-dark: #f0ead5;         /* Slightly darker paper with warmth */
-  --paper-shadow: #d4c4a8;          /* Paper shadow */
-  --ink-dark: #2c1810;              /* Dark brown ink */
-  --ink-medium: #4a3728;            /* Medium brown ink */
-  --ink-light: #6b4e37;             /* Light brown ink */
-  --accent-gold: #b8860b;           /* Antique gold */
-  --accent-red: #8b0000;            /* Deep red ink */
-  --border-brown: #8b7355;          /* Brown border */
-  --text-faded: #5d4e37;            /* Faded ink */
-  --paper-stain: rgba(139, 115, 85, 0.12); /* Slightly more visible paper stains */
-  --paper-age: rgba(160, 130, 98, 0.08);   /* Aging effect */
+  /* --- Parchment Base Colors --- */
+  --paper-bg: #f7f4e9;              /* Primary aged paper background */
+  --paper-bg-dark: #f0ead5;         /* Slightly darker paper variant */
+  --paper-shadow: #d4c4a8;          /* Shadow color for paper depth */
+  
+  /* --- Ink Colors (Medieval Brown Ink) --- */
+  --ink-dark: #3d2f1f;              /* Primary dark text (softer brown ink) */
+  --ink-medium: #5a4535;            /* Secondary text (medium brown ink) */
+  --ink-light: #7a5f47;             /* Tertiary text (light brown ink) */
+  --text-faded: #6b5545;            /* Faded/placeholder text */
+  
+  /* --- Accent Colors (Illumination) --- */
+  --accent-gold: #b8860b;           /* Gold leaf accents and highlights */
+  --accent-red: #8b0000;            /* Red ink for special elements */
+  
+  /* --- Border and Structure --- */
+  --border-brown: #8b7355;          /* Border lines and separators */
+  
+  /* --- Texture Effects --- */
+  --paper-stain: rgba(139, 115, 85, 0.12);  /* Age spots and stains */
+  --paper-age: rgba(160, 130, 98, 0.08);    /* General aging effect */
 }
 
-/* Paper texture background */
+/* ===================================================================
+   3. GLOBAL BODY STYLING & PAPER TEXTURE
+   ================================================================= */
+
+/* Create the base parchment appearance with complex layered textures */
 body {
   background-color: var(--paper-bg);
+  
+  /* Multi-layered background creates realistic paper fiber texture:
+     - Multiple radial gradients simulate paper fibers and imperfections
+     - Repeating linear gradients create subtle paper grain
+     - All layers use very low opacity for subtle, realistic effect */
   background-image: 
-    /* Paper fiber texture */
+    /* Paper fiber texture - random organic spots */
     radial-gradient(circle at 20% 80%, rgba(139, 115, 85, 0.08) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(139, 115, 85, 0.06) 0%, transparent 50%),
     radial-gradient(circle at 40% 40%, rgba(139, 115, 85, 0.04) 0%, transparent 50%),
     radial-gradient(circle at 60% 70%, rgba(139, 115, 85, 0.03) 0%, transparent 30%),
     radial-gradient(circle at 10% 30%, rgba(139, 115, 85, 0.05) 0%, transparent 40%),
     radial-gradient(circle at 90% 60%, rgba(139, 115, 85, 0.04) 0%, transparent 35%),
-    /* Paper grain */
+    
+    /* Paper grain - crosshatch pattern mimics paper fibers */
     repeating-linear-gradient(
       45deg,
       transparent,
@@ -47,12 +91,17 @@ body {
     );
 }
 
-/* Main content area with enhanced paper effect */
+/* ===================================================================
+   4. MAIN LAYOUT STRUCTURE
+   ================================================================= */
+
+/* Main content wrapper - provides base for additional paper effects */
 .md-main {
   background: var(--paper-bg);
   position: relative;
 }
 
+/* Advanced paper aging effects using pseudo-element overlay */
 .md-main::before {
   content: "";
   position: fixed;
@@ -60,8 +109,12 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  
+  /* Complex aging pattern with multiple layers:
+     - Age spots: Random circular stains of varying sizes
+     - Paper creases: Subtle diagonal lines suggesting folding/handling */
   background-image: 
-    /* Age spots and stains */
+    /* Age spots and stains - scattered imperfections */
     radial-gradient(circle at 25% 25%, var(--paper-stain) 0%, transparent 3%),
     radial-gradient(circle at 75% 75%, var(--paper-stain) 0%, transparent 2%),
     radial-gradient(circle at 50% 10%, var(--paper-stain) 0%, transparent 1.5%),
@@ -70,7 +123,8 @@ body {
     radial-gradient(circle at 15% 60%, rgba(139, 115, 85, 0.06) 0%, transparent 1.5%),
     radial-gradient(circle at 70% 40%, rgba(139, 115, 85, 0.05) 0%, transparent 1%),
     radial-gradient(circle at 30% 80%, rgba(139, 115, 85, 0.07) 0%, transparent 2%),
-    /* Subtle paper creases */
+    
+    /* Subtle paper creases - suggest handling and age */
     linear-gradient(
       120deg,
       transparent 0%,
@@ -89,22 +143,29 @@ body {
       transparent 82%,
       transparent 100%
     );
-  pointer-events: none;
-  z-index: -1;
+  
+  pointer-events: none;  /* Allows interaction with content below */
+  z-index: -1;           /* Places texture behind all content */
 }
 
-/* Header styling like manuscript header */
+/* ===================================================================
+   5. HEADER STYLING (Manuscript Title Page)
+   ================================================================= */
+
+/* Main header container - styled like manuscript title area */
 .md-header {
   background: linear-gradient(to bottom, var(--paper-bg), var(--paper-bg-dark));
   box-shadow: 0 2px 8px rgba(139, 115, 85, 0.2);
-  border-bottom: 3px double var(--border-brown);
   position: relative;
-  height: auto;
-  min-height: 4rem;
-  padding: 0.5rem 0;
+  height: 3.5rem;  /* Fixed height instead of auto */
+  min-height: 3.5rem;                   
+  padding: 1.4rem 0;  /* Remove padding to prevent offset */               
   z-index: 10;
+  display: flex;  /* Make header itself flex container */
+  align-items: center;  /* Center content vertically */
 }
 
+/* Gold accent line under header - mimics illuminated borders */
 .md-header::after {
   content: "";
   position: absolute;
@@ -115,36 +176,58 @@ body {
   background: var(--accent-gold);
 }
 
+/* Header content layout - flexbox for responsive positioning */
 .md-header__inner {
   max-width: 100%;
   padding: 0 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 100%;
-  min-height: 3rem;
+  width: 100%;  /* Take full width */
+  flex: 1;  /* Expand to fill container */
 }
 
-.md-header__title {
-  font-family: 'Cinzel Decorative', serif;
-  font-weight: 700;
-  color: var(--ink-dark);
-  text-shadow: 1px 1px 2px rgba(139, 115, 85, 0.3);
-  letter-spacing: 2px;
-  position: relative;
-  font-size: 1.1rem;
+/* Logo and title container - unified branding area */
+.md-header__inner .md-header__title {
   margin: 0;
-  padding: 0.5rem 0;
-  white-space: nowrap;
-  overflow: visible;
-  max-width: none;
-  flex-shrink: 0;
-  display: inline-flex;
+  padding: 0;
+  display: flex;
   align-items: center;
-  z-index: 11;
+  flex-shrink: 0;
+  height: 100%;
 }
 
-/* Fix the md-ellipsis span inside the title */
+/* Logo styling - medieval manuscript emblem */
+.md-header__button.md-logo {
+  display: none !important;
+}
+
+/* Title styling */
+.md-header__title {
+  font-family: 'Cinzel Decorative', serif !important;  /* Ornate decorative font */
+  font-weight: 700 !important;
+  color: var(--ink-dark) !important;
+  text-shadow: 1px 1px 2px rgba(139, 115, 85, 0.3) !important;  /* Subtle embossed effect */
+  letter-spacing: 2px !important;                               /* Spaced for elegance */
+  position: relative !important;
+  font-size: 1.1rem !important;
+  margin: 0 !important;
+  padding: 0 !important;                    
+  white-space: nowrap !important;
+  overflow: visible !important;
+  max-width: none !important;
+  flex-shrink: 0 !important;
+  display: flex !important;               
+  align-items: center !important;
+  justify-content: center !important;    
+  z-index: 11 !important;
+  line-height: 1 !important;         
+  height: 100% !important;               
+}
+
+/* Ensure the title text inside aligns properly */
+.md-header__title .md-header__title--text,
 .md-header__title .md-ellipsis {
   overflow: visible !important;
   text-overflow: clip !important;
@@ -153,36 +236,36 @@ body {
   max-width: none !important;
   width: auto !important;
   position: static !important;
-  vertical-align: baseline !important;
+  vertical-align: middle !important;
+  line-height: inherit !important;
 }
 
-.md-header__title::before,
-.md-header__title::after {
-  content: "❦";
-  color: var(--accent-gold);
-  font-size: 0.9em;
-  margin: 0 6px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* Ensure header topic/breadcrumb doesn't overlap */
+/* Header breadcrumb/topic positioning */
 .md-header__topic {
   position: relative;
   z-index: 9;
   margin-left: 1rem;
 }
 
-/* Fix navigation tabs positioning */
+/* Header button styling (menu, search toggles) */
+.md-header__button {
+  display: none !important;
+}
+
+/* ===================================================================
+   6. NAVIGATION TABS (Manuscript Chapter Index)
+   ================================================================= */
+
+/* Tab container - positioned below main header */
 .md-tabs {
-  background: rgba(244, 241, 232, 0.95);
-  border-top: 1px solid var(--border-brown);
+  background: rgba(244, 241, 232, 0.95);  /* Semi-transparent paper */
   margin-top: 0;
   position: relative;
   z-index: 8;
   clear: both;
 }
 
+/* Tab list layout */
 .md-tabs__list {
   margin: 0;
   padding: 0 1rem;
@@ -190,48 +273,61 @@ body {
   flex-wrap: wrap;
 }
 
+/* Individual tab item */
 .md-tabs__item {
   height: auto;
   padding: 0.5rem 0;
   flex-shrink: 0;
 }
 
+/* Tab link styling - medieval chapter headings */
 .md-tabs__link {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', serif;       /* Clean medieval serif */
   color: var(--ink-medium);
   font-weight: 500;
   padding: 0.5rem 1rem;
-  border-radius: 0;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  border-radius: 0;                    /* No modern rounded corners */
+  text-transform: uppercase;           /* Medieval capital lettering */
+  letter-spacing: 1px;                 /* Spaced for readability */
   font-size: 0.85rem;
   transition: all 0.3s ease;
   display: block;
   white-space: nowrap;
+  box-sizing: border-box;              /* Include borders in size calculation */
+  border: 2px solid transparent;       /* Invisible border to maintain size */
+  border-bottom: 2px solid transparent; /* Consistent bottom border space */
 }
 
+/* Tab hover and active states */
 .md-tabs__link:hover,
 .md-tabs__link--active {
   color: var(--ink-dark) !important;
-  background: rgba(184, 134, 11, 0.1);
+  background: rgba(184, 134, 11, 0.1);     /* Subtle gold highlight */
   border-bottom: 2px solid var(--accent-gold);
 }
 
-/* Fix header button positioning */
-.md-header__button {
-  margin: 0 0.2rem;
-  padding: 0.2rem;
-  color: var(--ink-medium);
-  position: relative;
-  z-index: 11;
-  flex-shrink: 0;
+/* Active tab emphasis - strong visual hierarchy */
+.md-tabs__link--active {
+  color: var(--ink-dark) !important;
+  background: transparent !important;
+  font-weight: 600 !important;
+  text-decoration: bold !important;
+  text-underline-offset: 2px !important;
+  border-bottom: 2px solid var(--accent-gold) !important; /* Maintain border consistency */
 }
 
-.md-header__button:hover {
-  color: var(--ink-dark);
+/* Additional active tab selectors for Material theme compatibility */
+.md-tabs__item--active .md-tabs__link,
+.md-tabs__link[aria-current="page"] {
+  color: var(--ink-dark) !important;
+  text-decoration: bold !important;
 }
 
-/* Ensure search doesn't overlap */
+/* ===================================================================
+   7. SEARCH COMPONENT
+   ================================================================= */
+
+/* Search container positioning */
 .md-search {
   padding: 0.2rem 0;
   position: relative;
@@ -239,20 +335,40 @@ body {
   flex-shrink: 0;
 }
 
+/* Search input field - parchment styling */
 .md-search__form {
   background: var(--paper-bg);
   border: 1px solid var(--border-brown);
-  border-radius: 0;
+  border-radius: 0;                       /* No modern rounded corners */
 }
 
-/* Mobile responsive header */
+.md-search__input {
+  background: var(--paper-bg);
+  border: 2px solid var(--border-brown);
+  color: var(--ink-dark);
+  border-radius: 0;
+  font-family: 'EB Garamond', serif;      /* Consistent with body text */
+}
+
+/* Search placeholder text styling */
+.md-search__input::placeholder {
+  color: var(--text-faded);
+  font-style: italic;                     /* Elegant placeholder style */
+}
+
+/* ===================================================================
+   8. RESPONSIVE HEADER (Mobile Adaptations)
+   ================================================================= */
+
+/* Tablet and small desktop adjustments */
 @media screen and (max-width: 768px) {
   .md-header {
-    min-height: 3.5rem;
+    height: 3rem;  /* Slightly smaller for tablets */
+    min-height: 3rem;
   }
   
   .md-header__inner {
-    min-height: 2.5rem;
+    padding: 0 0.5rem;  /* Reduced padding for smaller screens */
   }
   
   .md-header__title {
@@ -272,7 +388,14 @@ body {
   }
 }
 
+/* Mobile phone adjustments */
 @media screen and (max-width: 480px) {
+  .md-header {
+    height: 2.5rem;  /* Even smaller for mobile */
+    min-height: 2.5rem;
+  }
+  
+  /* Hide decorative flourishes on very small screens */
   .md-header__title::before,
   .md-header__title::after {
     display: none;
@@ -284,27 +407,46 @@ body {
   }
   
   .md-header__inner {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;  /* Changed from wrap to prevent wrapping */
+    padding: 0 0.5rem;
   }
 }
 
-/* Navigation styling like manuscript index */
+/* ===================================================================
+   9. SIDEBAR NAVIGATION (Manuscript Index)
+   ================================================================= */
+
+/* Main navigation container */
 .md-nav {
-  font-family: 'EB Garamond', serif;
+  font-family: 'EB Garamond', serif;      /* Consistent manuscript font */
   background: var(--paper-bg);
 }
 
+/* Navigation list structure */
+.md-nav__list {
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Individual navigation items */
+.md-nav__item {
+  margin: 0.1rem 0;
+  padding: 0;
+}
+
+/* Navigation section titles - manuscript chapter headings */
 .md-nav__title {
   font-family: 'Cinzel', serif;
   font-weight: 600;
   color: var(--ink-dark);
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  text-transform: uppercase;              /* Medieval capital style */
+  letter-spacing: 2px;                   /* Spaced for elegance */
   border-bottom: 2px solid var(--border-brown);
   padding-bottom: 0.5rem;
   position: relative;
 }
 
+/* Gold accent line under navigation titles */
 .md-nav__title::after {
   content: "";
   position: absolute;
@@ -315,56 +457,73 @@ body {
   background: var(--accent-gold);
 }
 
+/* ===================================================================
+   10. NAVIGATION LINKS
+   ================================================================= */
+
+/* Base navigation link styling */
 .md-nav__link {
   color: var(--ink-medium);
   transition: all 0.3s ease;
-  border-radius: 0;
-  padding: 0.5rem;
+  border-radius: 0;                       /* No modern rounded corners */
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
   position: relative;
+  box-sizing: border-box;              /* Include borders in size calculation */
+  border: 2px solid transparent;       /* Invisible border to maintain consistent sizing */
 }
 
+/* Navigation link hover effects */
 .md-nav__link:hover:not(.md-nav__link--active):not([data-md-state="blur"]):not([aria-current="page"]) {
-  background: rgba(184, 134, 11, 0.1);
+  background: rgba(184, 134, 11, 0.1);   /* Subtle gold highlight */
   color: var(--ink-dark);
-  transform: none;
+  transform: none;                        /* Disable default Material animations */
   box-shadow: inset 0 0 0 1px rgba(184, 134, 11, 0.3);
 }
 
+/* Arrow indicator for hovered links */
 .md-nav__link:hover:not(.md-nav__link--active):not([data-md-state="blur"]):not([aria-current="page"])::before {
   content: "▶";
   position: absolute;
-  left: -10px;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
   color: var(--accent-gold);
   font-size: 0.8em;
 }
 
-/* Active/Selected navigation link styling */
+/* ===================================================================
+   11. ACTIVE/SELECTED NAVIGATION STATES
+   ================================================================= */
+
+/* Active navigation links - strong visual emphasis */
 .md-nav__link--active,
 .md-nav__link[data-md-state="blur"],
 .md-nav__item--active > .md-nav__link,
 .md-nav__item .md-nav__link[aria-current="page"] {
-  background: rgba(44, 24, 16, 0.05) !important;
+  background: var(--paper-bg-dark) !important;  /* Light ink background */
   color: var(--ink-dark) !important;
-  border: 2px solid var(--ink-dark) !important;
-  box-shadow: inset 0 0 0 1px rgba(44, 24, 16, 0.2) !important;
+  border: 2px solid var(--ink-dark) !important;   /* Strong border */
   font-weight: 600 !important;
   position: relative;
+  padding-left: 1.5rem !important;
 }
 
-/* Folders/Sections get dots */
+/* Bullet indicators for section folders */
 .md-nav__item--section > .md-nav__link--active::before,
 .md-nav__item--section > .md-nav__link[data-md-state="blur"]::before,
 .md-nav__item--active.md-nav__item--section > .md-nav__link::before,
 .md-nav__item--section .md-nav__link[aria-current="page"]::before {
-  content: "●";
+  content: "●";                           /* Solid bullet for sections */
   position: absolute;
-  left: -15px;
+  left: 0.25rem;
+  top: 50%;
+  transform: translateY(-50%);
   color: var(--ink-dark);
   font-size: 1em;
   font-weight: bold;
 }
 
-/* Override for sections - dots take precedence */
+/* Override to ensure section bullets take precedence */
 .md-nav__item--section > .md-nav__link--active::before,
 .md-nav__item--section > .md-nav__link[data-md-state="blur"]::before,
 .md-nav__item--active.md-nav__item--section > .md-nav__link::before,
@@ -373,56 +532,79 @@ body {
   font-size: 1em !important;
 }
 
-/* Also style the tabs when active */
-.md-tabs__link--active {
+/* Special styling for active sections - enhanced visibility */
+.md-nav__item--active.md-nav__item--section > .md-nav__link,
+.md-nav__item--section > .md-nav__link--active {
+  background: var(--paper-bg) !important;
+  background-color: #f0ead5 !important;  /* Slightly darker paper */
   color: var(--ink-dark) !important;
-  background: transparent !important;
-  border-bottom: 3px solid var(--ink-dark) !important;
-  font-weight: 600 !important;
-  text-decoration: bold !important;
-  text-underline-offset: 2px !important;
+  border: 2px solid var(--ink-dark) !important;
+  box-shadow: 0 2px 4px rgba(139, 115, 85, 0.3) !important;
+  font-weight: 700 !important;
+  opacity: 1 !important;
 }
 
-/* Force active tab text to stay dark - override Material theme */
-.md-tabs__item--active .md-tabs__link,
-.md-tabs__link[aria-current="page"] {
-  color: var(--ink-dark) !important;
-  text-decoration: bold !important;
-  text-underline-offset: 2px !important;
+/* ===================================================================
+   12. SIDEBAR LAYOUT
+   ================================================================= */
+
+/* Ensure content takes full width without TOC */
+.md-content {
+  margin-right: 0 !important;
 }
 
-/* Content area like manuscript page */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--secondary {
+    display: none !important;
+  }
+  
+  .md-content {
+    margin-right: 0 !important;
+  }
+}
+
+/* ===================================================================
+   13. MAIN CONTENT AREA (Manuscript Page)
+   ================================================================= */
+
+/* Primary content container - styled as aged manuscript page */
 .md-content {
   max-width: 1000px;
+  
+  /* Complex layered background for realistic paper texture */
   background: 
-    /* Paper texture overlay */
+    /* Paper texture overlay - subtle organic variations */
     radial-gradient(circle at 30% 20%, rgba(139, 115, 85, 0.03) 0%, transparent 40%),
     radial-gradient(circle at 70% 80%, rgba(139, 115, 85, 0.025) 0%, transparent 35%),
     radial-gradient(circle at 10% 60%, rgba(139, 115, 85, 0.02) 0%, transparent 30%),
     radial-gradient(circle at 90% 30%, rgba(139, 115, 85, 0.035) 0%, transparent 45%),
     /* Base paper color */
     var(--paper-bg);
+  
   margin: 2rem auto;
   padding: 3rem;
+  
+  /* Complex shadow system for realistic paper depth */
   box-shadow: 
-    /* Main paper shadow */
+    /* Main paper shadow - creates floating effect */
     0 8px 32px rgba(139, 115, 85, 0.4),
     0 4px 16px rgba(139, 115, 85, 0.3),
-    /* Inner paper texture shadow */
+    /* Inner paper texture shadow - adds depth */
     inset 0 0 120px rgba(139, 115, 85, 0.08),
     inset 0 0 60px rgba(139, 115, 85, 0.05),
-    /* Paper edge highlights */
+    /* Paper edge highlights - simulates paper thickness */
     inset 0 1px 0 rgba(255, 255, 255, 0.1),
     inset 1px 0 0 rgba(255, 255, 255, 0.05),
     inset -1px 0 0 rgba(139, 115, 85, 0.1),
     inset 0 -1px 0 rgba(139, 115, 85, 0.1);
+  
   border: 1px solid var(--border-brown);
   position: relative;
-  /* Paper texture filter */
+  /* Subtle color adjustments for aged paper look */
   filter: contrast(1.02) brightness(0.98);
 }
 
-/* Add paper fiber texture to content */
+/* Additional paper fiber texture overlay */
 .md-content::after {
   content: "";
   position: absolute;
@@ -430,8 +612,10 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  
+  /* Fine-detail paper texture patterns */
   background-image:
-    /* Fine paper grain */
+    /* Fine paper grain - crosshatch pattern */
     repeating-linear-gradient(
       0deg,
       transparent,
@@ -446,36 +630,47 @@ body {
       rgba(139, 115, 85, 0.008) 1px,
       rgba(139, 115, 85, 0.008) 2px
     ),
-    /* Random paper fibers */
+    /* Random paper fibers - elliptical shapes at various positions */
     radial-gradient(ellipse 2px 1px at 20% 30%, rgba(139, 115, 85, 0.1) 0%, transparent 100%),
     radial-gradient(ellipse 1px 2px at 80% 70%, rgba(139, 115, 85, 0.08) 0%, transparent 100%),
     radial-gradient(ellipse 3px 1px at 40% 60%, rgba(139, 115, 85, 0.06) 0%, transparent 100%),
     radial-gradient(ellipse 1px 3px at 60% 20%, rgba(139, 115, 85, 0.09) 0%, transparent 100%),
     radial-gradient(ellipse 2px 1px at 10% 80%, rgba(139, 115, 85, 0.07) 0%, transparent 100%),
     radial-gradient(ellipse 1px 2px at 90% 40%, rgba(139, 115, 85, 0.05) 0%, transparent 100%);
-  pointer-events: none;
-  opacity: 0.6;
+  
+  pointer-events: none;                   /* Allows interaction with content below */
+  opacity: 0.6;                          /* Subtle overlay effect */
 }
 
-/* Manuscript-style typography */
+/* ===================================================================
+   14. TYPOGRAPHY SYSTEM
+   ================================================================= */
+
+/* Base typography settings for manuscript appearance */
 .md-typeset {
-  font-family: 'EB Garamond', serif;
+  font-family: 'EB Garamond', serif;     /* Primary manuscript font */
   color: var(--ink-dark);
-  line-height: 1.8;
-  font-size: 1.1rem;
+  line-height: 1.8;                      /* Generous line spacing for readability */
+  font-size: 1.1rem;                     /* Slightly larger for manuscript feel */
 }
 
+/* ===================================================================
+   15. HEADINGS (Manuscript Hierarchy)
+   ================================================================= */
+
+/* Main title (H1) - Illuminated manuscript style */
 .md-typeset h1 {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', serif;  /* Most ornate font */
   color: var(--ink-dark);
   font-weight: 700;
   font-size: 2.8rem;
-  text-align: center;
+  text-align: center;                     /* Centered like manuscript titles */
   margin-bottom: 2rem;
   position: relative;
   padding: 1rem 0;
 }
 
+/* Decorative lines above and below H1 */
 .md-typeset h1::before {
   content: "";
   position: absolute;
@@ -498,19 +693,21 @@ body {
   background: linear-gradient(to right, transparent, var(--accent-gold), transparent);
 }
 
+/* Section headers (H2) - Chapter-style headings */
 .md-typeset h2 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', serif;          /* Clean medieval serif */
   color: var(--ink-dark);
   font-weight: 600;
   font-size: 1.8rem;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
   position: relative;
-  padding-left: 2rem;
+  padding-left: 2rem;                    /* Space for section symbol */
 }
 
+/* Section symbol before H2 headings */
 .md-typeset h2::before {
-  content: "§";
+  content: "§";                          /* Section symbol */
   position: absolute;
   left: 0;
   color: var(--accent-gold);
@@ -518,36 +715,115 @@ body {
   font-family: 'Cinzel Decorative', serif;
 }
 
+/* Subsection headers (H3) - Elegant italic style */
 .md-typeset h3 {
   font-family: 'Cinzel', serif;
   color: var(--ink-medium);
   font-weight: 500;
   font-size: 1.4rem;
-  font-style: italic;
+  font-style: italic;                    /* Elegant manuscript subsection style */
 }
 
-/* Manuscript-style paragraphs */
+/* ===================================================================
+   16. PARAGRAPHS (Manuscript Text Layout)
+   ================================================================= */
+
+/* Base paragraph styling - justified text like manuscripts */
 .md-typeset p {
-  text-align: justify;
-  text-indent: 2rem;
+  text-align: justify;                   /* Full justification for manuscript appearance */
+  text-indent: 2rem;                     /* Traditional paragraph indentation */
   margin-bottom: 1.2rem;
 }
 
+/* First paragraph has no indent (traditional typography) */
 .md-typeset p:first-of-type {
   text-indent: 0;
 }
 
-.md-typeset p:first-of-type::first-letter {
-  font-family: 'Cinzel Decorative', serif;
+/* Illuminated drop cap for opening paragraphs */
+.md-typeset p:first-of-type:not(:has(+ ul)):not(:has(+ ol)):not(ul p)::first-letter,
+.md-typeset > p:first-child:not(ul p)::first-letter {
+  font-family: 'Cinzel Decorative', serif;  /* Ornate font for drop cap */
   font-size: 4rem;
   line-height: 3rem;
-  float: left;
-  margin: 0.5rem 0.5rem 0 0;
-  color: var(--accent-gold);
-  text-shadow: 2px 2px 4px rgba(139, 115, 85, 0.3);
+  float: left;                           /* Float for text wrap */
+  margin: 0rem 0.5rem 0 0;
+  color: var(--accent-gold);             /* Gold illumination */
+  text-shadow: 2px 2px 4px rgba(139, 115, 85, 0.3);  /* Embossed effect */
 }
 
-/* Ink-style links */
+/* Ensure content after drop cap clears the float */
+.md-typeset p:first-of-type + *,
+.md-typeset > p:first-child + * {
+  clear: left;
+  margin-top: 0.5rem;
+}
+
+/* ===================================================================
+   17. LISTS (Manuscript Annotations)
+   ================================================================= */
+
+/* Unordered lists with custom golden bullets */
+.md-typeset ul {
+  margin: 1rem 0;
+  padding-left: 2rem;
+  list-style: none;                      /* Remove default bullets */
+  clear: left;                           /* Clear any floated elements like drop caps */
+}
+
+.md-typeset ul li {
+  position: relative;
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+}
+
+/* Custom gold bullet points */
+.md-typeset ul li::before {
+  content: "●";                          /* Solid bullet */
+  position: absolute;
+  left: -0.5rem;
+  color: var(--accent-gold);
+}
+
+/* Ordered lists */
+.md-typeset ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+  clear: left;                           /* Clear floated elements */
+}
+
+.md-typeset ol li {
+  margin: 0.5rem 0;
+  padding-left: 0.5rem;
+}
+
+/* Nested list styling with different bullets */
+.md-typeset ul ul,
+.md-typeset ol ol,
+.md-typeset ul ol,
+.md-typeset ol ul {
+  margin: 0.25rem 0;
+  padding-left: 1.5rem;
+}
+
+/* Second-level bullets */
+.md-typeset ul ul li::before {
+  content: "◦";                          /* Open circle */
+  color: var(--ink-medium);
+}
+
+/* Third-level bullets */
+.md-typeset ul ul ul li::before {
+  content: "▫";                          /* Small square */
+  color: var(--accent-gold);
+  font-size: 0.8em;
+}
+
+/* ===================================================================
+   18. LINKS (Manuscript References)
+   ================================================================= */
+
+/* Base link styling - golden ink like manuscript annotations */
 .md-typeset a {
   color: var(--accent-gold);
   text-decoration: none;
@@ -559,6 +835,7 @@ body {
   color: var(--accent-gold);
 }
 
+/* Animated underline effect - simulates ink drawing */
 .md-typeset a::after {
   content: "";
   position: absolute;
@@ -566,35 +843,41 @@ body {
   left: 0;
   width: 0;
   height: 1px;
-  background: var(--accent-red);
+  background: var(--accent-red);         /* Red ink for emphasis */
   transition: width 0.3s ease;
 }
 
 .md-typeset a:hover::after {
-  width: 100%;
+  width: 100%;                          /* Underline draws from left to right */
 }
 
-/* Manuscript-style code blocks */
+/* ===================================================================
+   19. CODE BLOCKS (Manuscript Codex)
+   ================================================================= */
+
+/* Inline code styling */
 .md-typeset code {
-  background: rgba(139, 115, 85, 0.1);
+  background: rgba(139, 115, 85, 0.1);  /* Light brown background */
   color: var(--ink-dark);
   padding: 0.2em 0.4em;
   border: 1px solid var(--border-brown);
-  font-family: 'Fira Code', monospace;
+  font-family: 'Fira Code', monospace;   /* Modern monospace for readability */
   font-size: 0.9em;
-  border-radius: 2px;
+  border-radius: 2px;                   /* Minimal rounding */
 }
 
+/* Code block container */
 .md-typeset pre {
-  background: rgba(139, 115, 85, 0.05);
+  background: rgba(139, 115, 85, 0.05); /* Very light brown */
   border: 2px solid var(--border-brown);
-  border-radius: 0;
+  border-radius: 0;                     /* No modern rounding */
   padding: 1.5rem;
   position: relative;
 }
 
+/* Code block label - styled like manuscript annotation */
 .md-typeset pre::before {
-  content: "Codex";
+  content: "Codex";                     /* Latin for "book/code" */
   position: absolute;
   top: -12px;
   left: 20px;
@@ -606,65 +889,82 @@ body {
   font-weight: 600;
 }
 
-/* Illuminated blockquotes */
+/* ===================================================================
+   20. BLOCKQUOTES (Illuminated Quotations)
+   ================================================================= */
+
+/* Manuscript-style blockquotes with decorative elements */
 .md-typeset blockquote {
-  border-left: 4px solid var(--accent-gold);
-  background: rgba(184, 134, 11, 0.05);
+  border-left: 4px solid var(--accent-gold);  /* Gold illuminated border */
+  background: rgba(184, 134, 11, 0.05);       /* Subtle gold background */
   padding: 1.5rem;
   margin: 2rem 0;
   position: relative;
-  font-style: italic;
-  border-radius: 0;
+  font-style: italic;                         /* Traditional quotation style */
+  border-radius: 0;                          /* No modern rounding */
 }
 
+/* Large decorative opening quote mark */
 .md-typeset blockquote::before {
-  content: """;
+  content: """;                              /* Opening quotation mark */
   font-size: 4rem;
   color: var(--accent-gold);
   position: absolute;
   top: -1rem;
   left: 1rem;
-  font-family: 'Cinzel Decorative', serif;
-  opacity: 0.7;
+  font-family: 'Cinzel Decorative', serif;   /* Ornate font */
+  opacity: 0.7;                             /* Subtle transparency */
 }
 
+/* Remove default paragraph indentation in quotes */
 .md-typeset blockquote p {
   text-indent: 0;
   margin-bottom: 0;
 }
 
-/* Manuscript tables */
+/* ===================================================================
+   21. TABLES (Manuscript Charts)
+   ================================================================= */
+
+/* Table styling with manuscript appearance */
 .md-typeset table {
   background: var(--paper-bg);
   border: 2px solid var(--border-brown);
-  border-collapse: separate;
+  border-collapse: separate;              /* Allows for detailed border styling */
   border-spacing: 0;
 }
 
+/* Table headers - styled like manuscript chapter headings */
 .md-typeset th {
-  background: rgba(139, 115, 85, 0.1);
+  background: rgba(139, 115, 85, 0.1);   /* Light brown header background */
   color: var(--ink-dark);
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', serif;           /* Medieval serif font */
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  text-transform: uppercase;              /* Capital letters */
+  letter-spacing: 1px;                   /* Spaced lettering */
   border-bottom: 2px solid var(--border-brown);
   padding: 1rem;
 }
 
+/* Table data cells */
 .md-typeset td {
-  border-bottom: 1px solid rgba(139, 115, 85, 0.3);
+  border-bottom: 1px solid rgba(139, 115, 85, 0.3);  /* Subtle row separators */
   padding: 0.8rem;
 }
 
-/* Footer like manuscript colophon */
+/* ===================================================================
+   22. FOOTER (Manuscript Colophon)
+   ================================================================= */
+
+/* Footer styling like traditional manuscript ending */
 .md-footer {
   background: linear-gradient(to top, var(--paper-bg-dark), var(--paper-bg));
-  border-top: 3px double var(--border-brown);
+  border-top: 3px double var(--border-brown);  /* Double border like header */
   color: var(--ink-medium);
   position: relative;
 }
 
+/* Gold accent line above footer */
 .md-footer::before {
   content: "";
   position: absolute;
@@ -675,27 +975,11 @@ body {
   background: var(--accent-gold);
 }
 
-/* Search styling */
-.md-search__input {
-  background: var(--paper-bg);
-  border: 2px solid var(--border-brown);
-  color: var(--ink-dark);
-  border-radius: 0;
-  font-family: 'EB Garamond', serif;
-}
+/* ===================================================================
+   23. SCROLLBAR (Manuscript Bookmark)
+   ================================================================= */
 
-.md-search__input::placeholder {
-  color: var(--text-faded);
-  font-style: italic;
-}
-
-/* Sidebar like manuscript margin notes */
-.md-sidebar {
-  background: var(--paper-bg);
-  border-right: 2px solid var(--border-brown);
-}
-
-/* Custom scrollbar like manuscript bookmark */
+/* Custom scrollbar styled like medieval bookmark ribbon */
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -714,7 +998,11 @@ body {
   background: linear-gradient(180deg, var(--accent-red), var(--accent-gold));
 }
 
-/* Responsive design for smaller scrolls */
+/* ===================================================================
+   24. RESPONSIVE DESIGN (Mobile Manuscripts)
+   ================================================================= */
+
+/* Tablet and mobile adaptations */
 @media screen and (max-width: 768px) {
   .md-content {
     margin: 1rem;
@@ -731,21 +1019,26 @@ body {
   }
   
   .md-typeset p {
-    text-indent: 1rem;
+    text-indent: 1rem;                   /* Reduced indentation for mobile */
   }
 }
 
-/* Print styles for actual paper */
+/* ===================================================================
+   25. PRINT STYLES (Actual Paper Output)
+   ================================================================= */
+
+/* Optimize for printing on actual paper */
 @media print {
   body {
-    background: white !important;
+    background: white !important;         /* Pure white for printing */
   }
   
   .md-content {
-    box-shadow: none !important;
+    box-shadow: none !important;         /* Remove shadows for print */
     border: none !important;
   }
   
+  /* Hide navigation elements when printing */
   .md-header,
   .md-footer,
   .md-sidebar {
@@ -753,38 +1046,6 @@ body {
   }
 }
 
-/* Hide table of contents entirely */
-.md-sidebar--secondary {
-  display: none !important;
-}
-
-.md-nav--secondary {
-  display: none !important;
-}
-
-/* Ensure content takes full width without TOC */
-.md-content {
-  margin-right: 0 !important;
-}
-
-@media screen and (min-width: 76.25em) {
-  .md-sidebar--secondary {
-    display: none !important;
-  }
-  
-  .md-content {
-    margin-right: 0 !important;
-  }
-}
-
-/* Make active sections completely solid/opaque */
-.md-nav__item--active.md-nav__item--section > .md-nav__link,
-.md-nav__item--section > .md-nav__link--active {
-  background: var(--paper-bg) !important;
-  background-color: #f0ead5 !important;
-  color: var(--ink-dark) !important;
-  border: 2px solid var(--ink-dark) !important;
-  box-shadow: 0 2px 4px rgba(139, 115, 85, 0.3) !important;
-  font-weight: 700 !important;
-  opacity: 1 !important;
-} 
+/* ===================================================================
+   END OF STYLESHEET
+   ================================================================= */ 
