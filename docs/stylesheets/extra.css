@@ -1,0 +1,306 @@
+/* Fantasy Theme for Egothare - A Mystical Realm */
+
+/* Import fantasy fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700&family=Uncial+Antiqua&family=Fira+Code:wght@300;400;500&display=swap');
+
+/* Fantasy color palette */
+:root {
+  --fantasy-primary: #2d1b69;        /* Deep mystical purple */
+  --fantasy-primary-light: #4a148c;   /* Lighter purple */
+  --fantasy-primary-dark: #1a0e3d;    /* Darker purple */
+  --fantasy-accent: #ffc107;          /* Golden amber */
+  --fantasy-accent-dark: #ff8f00;     /* Darker gold */
+  --fantasy-text: #e8eaf6;            /* Light mystical text */
+  --fantasy-text-dark: #3f51b5;       /* Dark mystical text */
+  --fantasy-background: #0a0a0a;      /* Deep night background */
+  --fantasy-surface: #1a1a2e;         /* Surface color */
+  --fantasy-border: #7b1fa2;          /* Magical border */
+  --fantasy-glow: #e1bee7;            /* Magical glow */
+}
+
+/* Custom background with mystical gradient */
+.md-main {
+  background: linear-gradient(135deg, 
+    var(--fantasy-background) 0%, 
+    #16213e 25%, 
+    #0f3460 50%, 
+    #16213e 75%, 
+    var(--fantasy-background) 100%);
+  background-attachment: fixed;
+}
+
+/* Header styling with magical elements */
+.md-header {
+  background: linear-gradient(90deg, var(--fantasy-primary-dark), var(--fantasy-primary));
+  box-shadow: 0 4px 20px rgba(123, 31, 162, 0.3);
+  border-bottom: 2px solid var(--fantasy-accent);
+}
+
+.md-header__title {
+  font-family: 'Cinzel Decorative', serif;
+  font-weight: 700;
+  color: var(--fantasy-accent);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+}
+
+/* Navigation styling */
+.md-nav {
+  font-family: 'Cinzel', serif;
+}
+
+.md-nav__title {
+  font-family: 'Cinzel Decorative', serif;
+  font-weight: 600;
+  color: var(--fantasy-accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid var(--fantasy-border);
+  padding-bottom: 0.5rem;
+}
+
+.md-nav__link {
+  color: var(--fantasy-text);
+  transition: all 0.3s ease;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.md-nav__link:hover {
+  background: linear-gradient(45deg, rgba(123, 31, 162, 0.2), rgba(255, 193, 7, 0.1));
+  color: var(--fantasy-accent);
+  transform: translateX(5px);
+  box-shadow: 0 2px 10px rgba(123, 31, 162, 0.3);
+}
+
+/* Content area styling */
+.md-content {
+  max-width: 1200px;
+  background: rgba(26, 26, 46, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(123, 31, 162, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(123, 31, 162, 0.3);
+  margin: 2rem;
+  padding: 2rem;
+}
+
+/* Typography with fantasy flair */
+.md-typeset {
+  font-family: 'Cinzel', serif;
+  color: var(--fantasy-text);
+  line-height: 1.7;
+}
+
+.md-typeset h1 {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--fantasy-accent);
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid var(--fantasy-accent);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.md-typeset h1::before,
+.md-typeset h1::after {
+  content: "✦";
+  color: var(--fantasy-accent);
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.md-typeset h1::before {
+  left: -2rem;
+}
+
+.md-typeset h1::after {
+  right: -2rem;
+}
+
+.md-typeset h2 {
+  font-family: 'Cinzel', serif;
+  color: var(--fantasy-accent);
+  font-weight: 600;
+  font-size: 1.8rem;
+  border-left: 4px solid var(--fantasy-accent);
+  padding-left: 1rem;
+  margin-top: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.md-typeset h3 {
+  font-family: 'Cinzel', serif;
+  color: var(--fantasy-glow);
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+/* Magical link styling */
+.md-typeset a {
+  color: var(--fantasy-accent);
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.md-typeset a:hover {
+  color: var(--fantasy-accent-dark);
+  text-shadow: 0 0 8px rgba(255, 193, 7, 0.6);
+  border-bottom-color: var(--fantasy-accent);
+}
+
+.md-typeset a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: linear-gradient(90deg, var(--fantasy-accent), var(--fantasy-accent-dark));
+  transition: width 0.3s ease;
+}
+
+.md-typeset a:hover::before {
+  width: 100%;
+}
+
+/* Mystical code blocks */
+.md-typeset code {
+  background: linear-gradient(135deg, rgba(26, 26, 46, 0.8), rgba(45, 27, 105, 0.3));
+  color: var(--fantasy-accent);
+  padding: 0.3em 0.6em;
+  border-radius: 6px;
+  border: 1px solid var(--fantasy-border);
+  font-family: 'Fira Code', monospace;
+  font-weight: 400;
+  box-shadow: 0 2px 8px rgba(123, 31, 162, 0.2);
+}
+
+.md-typeset pre {
+  background: linear-gradient(135deg, rgba(26, 26, 46, 0.9), rgba(45, 27, 105, 0.4));
+  border: 1px solid var(--fantasy-border);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(123, 31, 162, 0.3);
+}
+
+/* Enchanted blockquotes */
+.md-typeset blockquote {
+  border-left: 4px solid var(--fantasy-accent);
+  background: linear-gradient(135deg, rgba(26, 26, 46, 0.6), rgba(123, 31, 162, 0.1));
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 4px 16px rgba(123, 31, 162, 0.2);
+  font-style: italic;
+}
+
+.md-typeset blockquote::before {
+  content: """;
+  font-size: 4rem;
+  color: var(--fantasy-accent);
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
+  font-family: 'Cinzel Decorative', serif;
+  opacity: 0.7;
+}
+
+/* Magical tables */
+.md-typeset table {
+  background: rgba(26, 26, 46, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(123, 31, 162, 0.2);
+}
+
+.md-typeset th {
+  background: linear-gradient(135deg, var(--fantasy-primary), var(--fantasy-primary-light));
+  color: var(--fantasy-accent);
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.md-typeset td {
+  border-bottom: 1px solid rgba(123, 31, 162, 0.3);
+}
+
+/* Footer styling */
+.md-footer {
+  background: linear-gradient(90deg, var(--fantasy-primary-dark), var(--fantasy-primary));
+  border-top: 2px solid var(--fantasy-accent);
+  color: var(--fantasy-text);
+}
+
+/* Search styling */
+.md-search__input {
+  background: rgba(26, 26, 46, 0.8);
+  border: 1px solid var(--fantasy-border);
+  color: var(--fantasy-text);
+  border-radius: 20px;
+}
+
+.md-search__input::placeholder {
+  color: var(--fantasy-glow);
+}
+
+/* Sidebar styling */
+.md-sidebar {
+  background: rgba(26, 26, 46, 0.9);
+  backdrop-filter: blur(10px);
+  border-right: 1px solid rgba(123, 31, 162, 0.3);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--fantasy-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--fantasy-accent), var(--fantasy-primary));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--fantasy-accent-dark), var(--fantasy-primary-light));
+}
+
+/* Magical animations */
+@keyframes mysticalGlow {
+  0%, 100% { box-shadow: 0 0 5px rgba(255, 193, 7, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(255, 193, 7, 0.6); }
+}
+
+.md-header__title:hover {
+  animation: mysticalGlow 2s ease-in-out infinite;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .md-content {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .md-typeset h1 {
+    font-size: 2rem;
+  }
+  
+  .md-typeset h1::before,
+  .md-typeset h1::after {
+    display: none;
+  }
+} 

@@ -5,4 +5,52 @@
 site_name: Egothare
 site_url: https://saurbre8.github.io/Egothare
 site_author: Brenden S
-site_description: A description of your site
+site_description: A site for Daggerheart
+
+# Theme configuration
+theme:
+  name: material  # Popular theme with many customization options
+  # Alternative themes: readthedocs, mkdocs, bootstrap, etc.
+  
+  # Fantasy theme specific options
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark realm
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light realm
+  
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - navigation.instant
+  
+  font:
+    text: Cinzel
+    code: Fira Code
+
+# Custom CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Extensions for enhanced functionality
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
