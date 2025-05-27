@@ -323,14 +323,14 @@ body {
   position: relative;
 }
 
-.md-nav__link:hover {
+.md-nav__link:hover:not(.md-nav__link--active):not([data-md-state="blur"]):not([aria-current="page"]) {
   background: rgba(184, 134, 11, 0.1);
   color: var(--ink-dark);
   transform: none;
   box-shadow: inset 0 0 0 1px rgba(184, 134, 11, 0.3);
 }
 
-.md-nav__link:hover::before {
+.md-nav__link:hover:not(.md-nav__link--active):not([data-md-state="blur"]):not([aria-current="page"])::before {
   content: "▶";
   position: absolute;
   left: -10px;
@@ -351,16 +351,26 @@ body {
   position: relative;
 }
 
-.md-nav__link--active::before,
-.md-nav__link[data-md-state="blur"]::before,
-.md-nav__item--active > .md-nav__link::before,
-.md-nav__item .md-nav__link[aria-current="page"]::before {
+/* Folders/Sections get dots */
+.md-nav__item--section > .md-nav__link--active::before,
+.md-nav__item--section > .md-nav__link[data-md-state="blur"]::before,
+.md-nav__item--active.md-nav__item--section > .md-nav__link::before,
+.md-nav__item--section .md-nav__link[aria-current="page"]::before {
   content: "●";
   position: absolute;
   left: -15px;
   color: var(--ink-dark);
   font-size: 1em;
   font-weight: bold;
+}
+
+/* Override for sections - dots take precedence */
+.md-nav__item--section > .md-nav__link--active::before,
+.md-nav__item--section > .md-nav__link[data-md-state="blur"]::before,
+.md-nav__item--active.md-nav__item--section > .md-nav__link::before,
+.md-nav__item--section .md-nav__link[aria-current="page"]::before {
+  content: "●" !important;
+  font-size: 1em !important;
 }
 
 /* Also style the tabs when active */
@@ -523,13 +533,13 @@ body {
   line-height: 3rem;
   float: left;
   margin: 0.5rem 0.5rem 0 0;
-  color: var(--accent-red);
+  color: var(--accent-gold);
   text-shadow: 2px 2px 4px rgba(139, 115, 85, 0.3);
 }
 
 /* Ink-style links */
 .md-typeset a {
-  color: var(--accent-red);
+  color: var(--accent-gold);
   text-decoration: none;
   position: relative;
   font-weight: 500;
@@ -731,4 +741,40 @@ body {
   .md-sidebar {
     display: none !important;
   }
+}
+
+/* Hide table of contents entirely */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+.md-nav--secondary {
+  display: none !important;
+}
+
+/* Ensure content takes full width without TOC */
+.md-content {
+  margin-right: 0 !important;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--secondary {
+    display: none !important;
+  }
+  
+  .md-content {
+    margin-right: 0 !important;
+  }
+}
+
+/* Make active sections completely solid/opaque */
+.md-nav__item--active.md-nav__item--section > .md-nav__link,
+.md-nav__item--section > .md-nav__link--active {
+  background: var(--paper-bg) !important;
+  background-color: #f0ead5 !important;
+  color: var(--ink-dark) !important;
+  border: 2px solid var(--ink-dark) !important;
+  box-shadow: 0 2px 4px rgba(139, 115, 85, 0.3) !important;
+  font-weight: 700 !important;
+  opacity: 1 !important;
 } 

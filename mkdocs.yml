@@ -35,7 +35,7 @@ theme:
     - search.highlight
     - search.share
     - navigation.instant
-  
+
   font:
     text: Cinzel
     code: Fira Code
@@ -52,5 +52,5 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
