@@ -28,7 +28,7 @@ def convert_obsidian_links(content, file_map):
             display_text = link_path = link_text
         
         # Look up the actual path in our file map
-        actual_path = file_map.get(link_path, link_path)
+        actual_path = file_map.get(link_path)
         
         # Just add trailing slash, no leading slash or Egothare
         final_path = f"{actual_path}/"
