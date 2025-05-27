@@ -1,5 +1,3 @@
 # Welcome
 
-[[Core Realms/Circles Below|Circles Below]]
-
-[[Ancestry/Clank Ancestry|Clanks]]
+[[Core Realms/Circles Below]]
