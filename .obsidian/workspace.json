@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,11 +168,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56c649df55b3ab09",
+  "active": "3bc649daa4179878",
   "lastOpenFiles": [
+    "site/search/search_index.json",
+    "site/index.html",
+    "site/sitemap.xml.gz",
+    "site/sitemap.xml",
+    "site/404.html",
+    "site/webfonts/fa-v4compatibility.woff2",
+    "site/webfonts/fa-v4compatibility.ttf",
+    "site/webfonts/fa-solid-900.woff2",
+    "site/webfonts/fa-solid-900.ttf",
+    "site/webfonts/fa-regular-400.woff2",
+    "site/webfonts/fa-regular-400.ttf",
+    "site/img/grid.png",
     "docs/index.md",
-    "docs",
-    "untitled folder",
     "Core Realms/Hallows Above.md",
     "Core Realms/Circles Below.md",
     "README.md"
