@@ -546,7 +546,7 @@ body {
 }
 
 .md-typeset a:hover {
-  color: var(--ink-dark);
+  color: var(--accent-gold);
 }
 
 .md-typeset a::after {
