@@ -1,5 +1,5 @@
 
-The **Feltharion** are a [[Community]] of [[Katari Ancestry]] that resemble leopards and live in the western part of [[Fanewick]]. 
+The **Feltharion** are a [[Community]] of [[Katari Ancestry]] that resemble leopards and live in the western part of [[Fanewick]] in the town of [[Soldon]]. 
 
 ----
 
