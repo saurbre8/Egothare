@@ -1,3 +1,3 @@
 # Welcome
 
-[[Core Realms/Circles Below]]
+[[../Core Realms/Circles Below]]
