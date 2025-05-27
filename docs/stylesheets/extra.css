@@ -981,21 +981,30 @@ body {
 
 /* Custom scrollbar styled like medieval bookmark ribbon */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 0px;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--paper-bg-dark);
-  border: 1px solid var(--border-brown);
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, var(--accent-gold), var(--border-brown));
-  border: 1px solid var(--border-brown);
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, var(--accent-red), var(--accent-gold));
+  background: transparent;
+}
+
+/* Hide scrollbars in Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbars in IE and Edge */
+body {
+  -ms-overflow-style: none;
 }
 
 /* ===================================================================
