@@ -1,5 +1,5 @@
 
-The region Northeast of [[Fanewick]], connects the peninsula to [[Egothare]] in the Northeast.
+The region northeast of [[Fanewick]], connects the peninsula to [[Egothare]] in the Northeast.
 
 ----
 

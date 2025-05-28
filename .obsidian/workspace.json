@@ -142,12 +142,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Fanewick/Fanewick.md",
+                "file": "docs/Haven/Haven.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fanewick"
+              "title": "Haven"
             }
           }
         ],
@@ -272,13 +272,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Fanewick/Fanewick.md",
+                "file": "docs/Haven/Haven.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fanewick"
+              "title": "Outline of Haven"
             }
           }
         ],
@@ -300,6 +300,9 @@
   },
   "active": "33434cba9fb64f6f",
   "lastOpenFiles": [
+    "docs/Core Realms/Mortal Realm.md",
+    "docs/Core Realms/Circles Below.md",
+    "docs/Fanewick/Fanewick.md",
     "docs/Fanewick/People/Vellen Thistlehorn.md",
     "Session Notes/Session 1/Lenora Characters.canvas",
     "docs/Fanewick/Locations/Lenora/Lenora.md",
@@ -319,14 +322,11 @@
     "Fire Falls.md",
     "docs/The Witherwild/Witherwild.md",
     "Witherwild.md",
-    "docs/Core Realms/Circles Below.md",
     "docs/Core Realms/Hallows Above.md",
-    "docs/Core Realms/Mortal Realm.md",
     "docs/Core Realms/Realms Beyond.md",
     "docs/Fanewick/Communities/Community.md",
     "docs/Fanewick/Communities/Feltharion.md",
     "docs/Fanewick/Communities/Veythari.md",
-    "docs/Fanewick/Fanewick.md",
     "docs/Haven/Haven.md",
     "docs/Haven/People",
     "docs/Haven",
