@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/The Witherwild/People/Archmage Phylax.md",
+                "file": "Unreleased/Archmage Phylax.md",
                 "mode": "source",
                 "source": false
               },
@@ -227,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/The Witherwild/People/Archmage Phylax.md",
+                "file": "Unreleased/Archmage Phylax.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -253,9 +253,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eaa9ecded0c1c78d",
+  "active": "3bc649daa4179878",
   "lastOpenFiles": [
-    "docs/The Witherwild/People/Kreil Dirn.md",
+    "Unreleased/Kreil Dirn.md",
     "docs/The Witherwild/Communities/Veythari.md",
     "docs/The Witherwild/Communities/Feltharion.md",
     "docs/The Witherwild/Locations/Soldon.md",
@@ -263,7 +263,7 @@
     "Unreleased/Characters/Ethan.md",
     "Unreleased/Characters/Dylan.md",
     "Unreleased/Characters/Dubey.md",
-    "docs/The Witherwild/People/Archmage Phylax.md",
+    "Unreleased/Archmage Phylax.md",
     "Archmage Phylax’s.md",
     "docs/The Witherwild/People",
     "Unreleased/Communities/Mycotyrant.md",
