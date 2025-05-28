@@ -474,9 +474,9 @@ body {
 
 /* Navigation link hover effects */
 .md-nav__link:hover:not(.md-nav__link--active):not([data-md-state="blur"]):not([aria-current="page"]) {
-  background: rgba(184, 134, 11, 0.1);   /* Subtle gold highlight */
+  background: rgba(184, 134, 11, 0.1); 
   color: var(--ink-dark);
-  transform: none;                        /* Disable default Material animations */
+  transform: none;                   
   box-shadow: inset 0 0 0 1px rgba(184, 134, 11, 0.3);
 }
 
@@ -487,7 +487,6 @@ body {
   left: 0.5rem;
   top: 50%;
   transform: translateY(-50%);
-  color: var(--accent-gold);
   font-size: 0.8em;
 }
 
@@ -501,8 +500,8 @@ body {
 .md-nav__item--active > .md-nav__link,
 .md-nav__item .md-nav__link[aria-current="page"] {
   background: var(--paper-bg-dark) !important;  /* Light ink background */
-  color: var(--ink-dark) !important;
-  border: 2px solid var(--ink-dark) !important;   /* Strong border */
+  color: var(--ink-medium) !important;
+  border: 2px solid var(--ink-medium) !important;   /* Strong border */
   font-weight: 600 !important;
   position: relative;
   padding-left: 1.5rem !important;
@@ -513,7 +512,7 @@ body {
 .md-nav__item--section > .md-nav__link[data-md-state="blur"]::before,
 .md-nav__item--active.md-nav__item--section > .md-nav__link::before,
 .md-nav__item--section .md-nav__link[aria-current="page"]::before {
-  content: "●";                           /* Solid bullet for sections */
+  content: "●";                          
   position: absolute;
   left: 0.25rem;
   top: 50%;
@@ -536,13 +535,25 @@ body {
 .md-nav__item--active.md-nav__item--section > .md-nav__link,
 .md-nav__item--section > .md-nav__link--active {
   background: var(--paper-bg) !important;
-  background-color: #f0ead5 !important;  /* Slightly darker paper */
+  background-color: #f0ead5 !important;
   color: var(--ink-dark) !important;
   border: 2px solid var(--ink-dark) !important;
   box-shadow: 0 2px 4px rgba(139, 115, 85, 0.3) !important;
   font-weight: 700 !important;
   opacity: 1 !important;
 }
+
+/* Styling for non-active folder/section items */
+.md-nav__item--section > .md-nav__link:not(.md-nav__link--active):not([data-md-state="blur"]):not([aria-current="page"]) {
+ 
+  color: var(--ink-medium) !important;  /* Normal text color */
+  border-bottom: 2px solid var(--border-brown) !important;  /* Grey underline */
+  border-top: 2px solid transparent !important;  /* Transparent top border for consistency */
+  border-left: 2px solid transparent !important;  /* Transparent left border for consistency */
+  border-right: 2px solid transparent !important;  /* Transparent right border for consistency */
+  font-weight: 600 !important;
+}
+
 
 /* ===================================================================
    12. SIDEBAR LAYOUT
