@@ -34,9 +34,79 @@
               "icon": "lucide-file",
               "title": "Hallows Above"
             }
+          },
+          {
+            "id": "ddc20048fd0b36dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreleased/Communities/Mycotyrant.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mycotyrant"
+            }
+          },
+          {
+            "id": "e318081edb9f99f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreleased/Characters/Dubey.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dubey"
+            }
+          },
+          {
+            "id": "f6308f04e546b7b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreleased/Characters/Ethan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ethan"
+            }
+          },
+          {
+            "id": "d053166ba6e57871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreleased/Characters/Dylan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dylan"
+            }
+          },
+          {
+            "id": "eaa9ecded0c1c78d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/The Witherwild/People/Archmage Phylax.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Archmage Phylax"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -157,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Core Realms/Hallows Above.md",
+                "file": "docs/The Witherwild/People/Archmage Phylax.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hallows Above"
+              "title": "Outline of Archmage Phylax"
             }
           }
         ],
@@ -171,7 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,44 +253,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "838d8b0054d4090e",
+  "active": "eaa9ecded0c1c78d",
   "lastOpenFiles": [
+    "docs/The Witherwild/People/Kreil Dirn.md",
+    "docs/The Witherwild/Communities/Veythari.md",
+    "docs/The Witherwild/Communities/Feltharion.md",
+    "docs/The Witherwild/Locations/Soldon.md",
+    "docs/The Witherwild/Locations/Fanewick.md",
+    "Unreleased/Characters/Ethan.md",
+    "Unreleased/Characters/Dylan.md",
+    "Unreleased/Characters/Dubey.md",
+    "docs/The Witherwild/People/Archmage Phylax.md",
+    "Archmage Phylax’s.md",
+    "docs/The Witherwild/People",
+    "Unreleased/Communities/Mycotyrant.md",
+    "Unreleased/Characters",
+    "docs/The Witherwild/Serpent's Sickness.md",
+    "docs/The Witherwild/Lady's Veil.md",
+    "Serpent’s Sickness.md",
+    "docs/Core Realms/Hallows Above.md",
     "docs/Core Realms/Circles Below.md",
     "docs/Ancestry/Clank Ancestry.md",
-    "Mycotyrant.md",
     "docs/index.md",
     "Unreleased/Communities",
     "Unreleased",
-    "docs/The Witherwild/Locations/Soldon.md",
-    "docs/The Witherwild/Communities/Feltharion.md",
-    "docs/The Witherwild/Fanewick.md",
-    "docs/The Witherwild/Communities/Veythari.md",
     "docs/The Witherwild/Locations",
-    "docs/The Witherwild/Serpent's Sickness.md",
     "docs/The Witherwild/The Witherwild.md",
-    "docs/The Witherwild/Haven.md",
+    "docs/The Witherwild/Locations/Haven.md",
     "docs/stylesheets/extra.css",
     "docs/stylesheets",
     "convert_links.py",
-    "docs/Core Realms/Hallows Above.md",
     "Core Realms/Circles Below.md",
     "docs/orig-deploy.yml",
     "docs/deploy.yml",
     "docs/The Witherwild/Communities/Community.md",
-    "docs/The Witherwild/Communities",
-    "docs/The Witherwild",
     "docs/Ancestry/Simiah Ancestry.md",
     "docs/Ancestry/Ribbet Ancestry.md",
     "docs/Ancestry/Orc Ancestry.md",
     "docs/Ancestry/Katari Ancestry.md",
-    "docs/Ancestry/Infernis Ancestry.md",
-    "docs/Ancestry/Human Ancestry.md",
-    "docs/Ancestry/Halfling Ancestry.md",
-    "docs/Ancestry/Goblin Ancestry.md",
-    "docs/Ancestry/Giant Ancestry.md",
-    "docs/Ancestry/Galapa Ancestry.md",
-    "docs/Ancestry/Fungril Ancestry.md",
-    "docs/Ancestry/Firbolg Ancestry.md",
     "site/img/grid.png"
   ]
 }
