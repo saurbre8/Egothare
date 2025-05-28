@@ -1,8 +1,11 @@
 {
 	"nodes":[
-		{"id":"362521782d479317","type":"file","file":"Images/Vellen Thistlehorn.png","x":-380,"y":-860,"width":225,"height":400},
-		{"id":"793ae94c75711991","type":"file","file":"Unreleased/Characters/Vellen Thistlehorn.md","x":-467,"y":-1000,"width":400,"height":100},
-		{"id":"1110b1ca8a4ae339","type":"file","file":"Images/Pasted image 20250528131537.png","x":-529,"y":-320,"width":298,"height":400}
+		{"id":"793ae94c75711991","type":"file","file":"docs/Fanewick/People/Vellen Thistlehorn.md","x":-467,"y":-1040,"width":400,"height":140},
+		{"id":"a499a0813563570a","type":"text","text":"Voice: Deep, serious\nAttitude: Wants to protect the people","x":-654,"y":-860,"width":250,"height":100},
+		{"id":"362521782d479317","type":"file","file":"Images/Vellen Thistlehorn.png","x":-380,"y":-860,"width":313,"height":556},
+		{"id":"1110b1ca8a4ae339","type":"file","file":"Images/Samric Mosswiggle.png","x":-828,"y":-94,"width":379,"height":508},
+		{"id":"30c4f10ec54cec1e","type":"file","file":"Unreleased/Samric Mosswiggle.md","x":-849,"y":-284,"width":400,"height":150},
+		{"id":"a956eb1de9e99373","type":"text","text":"Voice: high, nervous, old\nAttitude: scared, guilty","x":-1099,"y":-94,"width":250,"height":80}
 	],
 	"edges":[]
 }
