@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"362521782d479317","type":"file","file":"Images/Vellen Thistlehorn.png","x":-380,"y":-860,"width":225,"height":400},
+		{"id":"793ae94c75711991","type":"file","file":"Unreleased/Characters/Vellen Thistlehorn.md","x":-467,"y":-1000,"width":400,"height":100},
+		{"id":"1110b1ca8a4ae339","type":"file","file":"Images/Pasted image 20250528131537.png","x":-529,"y":-320,"width":298,"height":400}
+	],
+	"edges":[]
+}
