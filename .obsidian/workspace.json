@@ -8,17 +8,101 @@
         "type": "tabs",
         "children": [
           {
+            "id": "56c649df55b3ab09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "838d8b0054d4090e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Core Realms/Hallows Above.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hallows Above"
+            }
+          },
+          {
+            "id": "ddc20048fd0b36dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreleased/Communities/Mycotyrant.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mycotyrant"
+            }
+          },
+          {
             "id": "e318081edb9f99f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreleased/Characters/Draedon Frostfire.md",
+                "file": "Unreleased/Characters/Dubey.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Draedon Frostfire"
+              "title": "Dubey"
+            }
+          },
+          {
+            "id": "f6308f04e546b7b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreleased/Characters/Ethan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ethan"
+            }
+          },
+          {
+            "id": "d053166ba6e57871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreleased/Characters/Dylan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dylan"
+            }
+          },
+          {
+            "id": "821091af0d483706",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Fanewick/Locations/Soldon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Soldon"
             }
           },
           {
@@ -29,9 +113,9 @@
               "state": {
                 "file": "Session Notes/Session 1/Lenora Characters.canvas",
                 "viewState": {
-                  "x": -108.75189674764658,
-                  "y": -351.3821764971241,
-                  "zoom": -1.092785539874036
+                  "x": -584.3784467000535,
+                  "y": -100.77177461637135,
+                  "zoom": -0.09278553987403615
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -40,20 +124,6 @@
           },
           {
             "id": "050e97c21fdee8e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Session Notes/Session 1/Session 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Session 1"
-            }
-          },
-          {
-            "id": "e2353c06ecee11fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -67,21 +137,21 @@
             }
           },
           {
-            "id": "21288492e5364d9e",
+            "id": "33434cba9fb64f6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Session Notes/Session 1/Session 1.md",
+                "file": "docs/The Witherwild/Serpent's Sickness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 1"
+              "title": "Serpent's Sickness"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -202,13 +272,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session Notes/Session 1/Lenora Characters.canvas",
+                "file": "docs/The Witherwild/Serpent's Sickness.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lenora Characters"
+              "title": "Outline of Serpent's Sickness"
             }
           }
         ],
@@ -228,39 +298,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbf24d9c7e82162c",
+  "active": "33434cba9fb64f6f",
   "lastOpenFiles": [
-    "Images/Veythari Mystery.png",
-    "Unreleased/Characters/Draedon Frostfire.md",
     "Session Notes/Session 1/Session 1.md",
-    "Session Notes/Session 1/Samric Note.md",
-    "Unreleased/Characters/Hopper.md",
-    "Unreleased/Characters/Bobo Bananarama.md",
-    "Loot.md",
     "Session Notes/Session 1/Lenora Characters.canvas",
+    "docs/The Witherwild/Witherwild.md",
+    "docs/index.md",
+    "docs/The Witherwild/Serpent's Sickness.md",
+    "docs/The Witherwild/Lady's Veil.md",
+    "docs/Haven/Haven.md",
+    "docs/Fanewick/People/Samric Mosswiggle.md",
     "docs/Fanewick/Locations/The Stone Flow Baths.md",
     "docs/Fanewick/Communities/The Monks of Stacked Stones.md",
-    "docs/Fanewick/Locations/Lenora/Lenora.md",
-    "docs/Fanewick/Locations/Lenora/The Broken Pick.md",
-    "Images/Bees.png",
-    "docs/Fanewick/People/Samric Mosswiggle.md",
-    "docs/Fanewick/People/Vellen Thistlehorn.md",
     "docs/Core Realms/Divinities/Hyacynis, They Who Spread Small Blossoms.md",
-    "Images/Hyacynis, They Who Spread Small Blossoms.png",
     "docs/Core Realms/Divinities/Faint Divinities.md",
-    "docs/The Witherwild/Serpent's Sickness.md",
     "docs/Core Realms/Divinities",
-    "docs/Haven/Haven.md",
+    "Session Notes/Session 1/Samric Note.md",
+    "Loot.md",
+    "Images/Veythari Mystery.png",
+    "Images/Hyacynis, They Who Spread Small Blossoms.png",
+    "Images/Bees.png",
+    "TesT file.md",
+    "docs/Ancestry/Elf Ancestry.md",
+    "docs/Ancestry/Clank Ancestry.md",
+    "docs/Fanewick/Fanewick.md",
+    "docs/Fanewick/Communities/Feltharion.md",
+    "docs/Fanewick/Communities/Community.md",
     "docs/Core Realms/Mortal Realm.md",
     "docs/Core Realms/Circles Below.md",
-    "docs/Fanewick/Fanewick.md",
+    "docs/Fanewick/People/Vellen Thistlehorn.md",
+    "docs/Fanewick/Locations/Lenora/Lenora.md",
+    "Unreleased/Samric Mosswiggle.md",
+    "docs/Fanewick/Locations/Lenora/The Broken Pick.md",
     "docs/Fanewick/Locations/Lenora",
-    "Drinking Games.md",
-    "docs/Ancestry/Faun Ancestry.md",
-    "docs/Ancestry/Goblin Ancestry.md",
-    "Unreleased/Archmage Phylax.md",
-    "Unreleased/Kreil Dirn.md",
-    "docs/Ancestry/Halfling Ancestry.md",
     "Images/Samric Mosswiggle.png",
     "docs/Haven/People",
     "docs/Haven",

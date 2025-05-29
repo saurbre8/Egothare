@@ -12,11 +12,11 @@ Dylan: [[Hopper]]
 #### Opening
 The players are in [[Lenora]]. [[Draedon Frostfire]] sits in [[The Broken Pick]], *let ethan decide what hes doing*
 [[Hopper]] is walking through the busy market stalls on the ground, looking to find some food.
-[[Bobo Bananarama]] seeks out the [[Lenora]] mayor [[Vellen Thistlehorn]] to try and locate someone who might have knowledge of the [[Librum Mysticorum]]. He has heard the stories of Vellen and knows he has traveled far and wide across Fanewick. 
+[[Bobo Bananarama]] seeks out the [[Lenora]] mayor [[Vellen Thistlehorn]] to try and locate someone who might have knowledge of the [[Librum Mysticorum]]. He has heard the stories of Vellen and knows he has traveled far and wide across Fanewick. He waits in the town hall for the mayor Vellen. 
 
 #### Combat in the market
 While collected in [[Lenora]], large bees attack! Session 1.1 Combat [Link](https://freshcutgrass.app/)
-- Start while Bobo is talking walking into the mayor's building, which is bottom of rock.
+- Start while Bobo is waiting for the mayor in the town hall, which is bottom of rock.
 - Hopper see's people get killed by the bees and gets ready to fight
 - Draedon hears the commotion and exits the bar.
 They all rush out to fight and are in the city center. 

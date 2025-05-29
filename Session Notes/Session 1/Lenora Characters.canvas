@@ -11,7 +11,7 @@
 		{"id":"7bcc002b5cc0577b","type":"file","file":"docs/Core Realms/Divinities/Hyacynis, They Who Spread Small Blossoms.md","x":114,"y":-700,"width":400,"height":606},
 		{"id":"d95315ddc3426759","type":"file","file":"Images/Bees.png","x":-1399,"y":-900,"width":300,"height":400},
 		{"id":"a2b6f83a7119627e","type":"file","file":"Images/Veythari Mystery.png","x":-1606,"y":329,"width":357,"height":463},
-		{"id":"6e0ad80f6105350c","x":-1880,"y":329,"width":250,"height":130,"type":"text","text":"A mysterious figure\nVoice: Sly and quiet\nAttitude: serious, curious"}
+		{"id":"6e0ad80f6105350c","type":"text","text":"A mysterious figure\nVoice: Sly and quiet\nAttitude: serious, curious","x":-1880,"y":329,"width":250,"height":130}
 	],
 	"edges":[]
 }
