@@ -128,30 +128,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Fanewick/Locations/Lenora/The Broken Pick.md",
+                "file": "Session Notes/Session 1/Session 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Broken Pick"
+              "title": "Session 1"
             }
           },
           {
             "id": "33434cba9fb64f6f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "docs/Haven/Haven.md",
-                "mode": "source",
-                "source": false
+                "file": "Session Notes/Session 1/Lenora Characters.canvas",
+                "viewState": {
+                  "x": -191.96763268886707,
+                  "y": -197.6350348134631,
+                  "zoom": -0.927475260828885
+                }
               },
-              "icon": "lucide-file",
-              "title": "Haven"
+              "icon": "lucide-layout-dashboard",
+              "title": "Lenora Characters"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -272,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Haven/Haven.md",
+                "file": "Session Notes/Session 1/Session 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Haven"
+              "title": "Outline of Session 1"
             }
           }
         ],
@@ -298,21 +301,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33434cba9fb64f6f",
+  "active": "050e97c21fdee8e0",
   "lastOpenFiles": [
+    "Session Notes/Session 1/Lenora Characters.canvas",
+    "Session Notes/Session 1/Session 1.md",
+    "docs/Fanewick/People/Samric Mosswiggle.md",
+    "docs/Fanewick/People/Vellen Thistlehorn.md",
+    "docs/Fanewick/Locations/Lenora/Lenora.md",
+    "docs/Core Realms/Divinities/Hyacynis, They Who Spread Small Blossoms.md",
+    "docs/Fanewick/Locations/Lenora/The Broken Pick.md",
+    "Images/Hyacynis, They Who Spread Small Blossoms.png",
+    "docs/Core Realms/Divinities/Faint Divinities.md",
+    "docs/The Witherwild/Serpent's Sickness.md",
+    "docs/Core Realms/Divinities",
+    "docs/Haven/Haven.md",
     "docs/Core Realms/Mortal Realm.md",
     "docs/Core Realms/Circles Below.md",
     "docs/Fanewick/Fanewick.md",
-    "docs/Fanewick/People/Vellen Thistlehorn.md",
-    "Session Notes/Session 1/Lenora Characters.canvas",
-    "docs/Fanewick/Locations/Lenora/Lenora.md",
-    "Unreleased/Samric Mosswiggle.md",
-    "docs/Fanewick/Locations/Lenora/The Broken Pick.md",
     "docs/Fanewick/Locations/Lenora",
     "Drinking Games.md",
     "docs/Ancestry/Faun Ancestry.md",
     "docs/Ancestry/Goblin Ancestry.md",
-    "Session Notes/Session 1/Session 1.md",
     "Unreleased/Archmage Phylax.md",
     "Unreleased/Kreil Dirn.md",
     "docs/Ancestry/Halfling Ancestry.md",
@@ -324,10 +333,6 @@
     "Witherwild.md",
     "docs/Core Realms/Hallows Above.md",
     "docs/Core Realms/Realms Beyond.md",
-    "docs/Fanewick/Communities/Community.md",
-    "docs/Fanewick/Communities/Feltharion.md",
-    "docs/Fanewick/Communities/Veythari.md",
-    "docs/Haven/Haven.md",
     "docs/Haven/People",
     "docs/Haven",
     "docs/Fanewick",
@@ -338,7 +343,6 @@
     "Session Notes",
     "docs/Fanewick/People",
     "Unreleased/Characters",
-    "Unreleased/Communities",
     "site/img/grid.png"
   ]
 }

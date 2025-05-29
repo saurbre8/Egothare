@@ -4,8 +4,11 @@
 		{"id":"a499a0813563570a","type":"text","text":"Voice: Deep, serious\nAttitude: Wants to protect the people","x":-654,"y":-860,"width":250,"height":100},
 		{"id":"362521782d479317","type":"file","file":"Images/Vellen Thistlehorn.png","x":-380,"y":-860,"width":313,"height":556},
 		{"id":"1110b1ca8a4ae339","type":"file","file":"Images/Samric Mosswiggle.png","x":-828,"y":-94,"width":379,"height":508},
-		{"id":"30c4f10ec54cec1e","type":"file","file":"Unreleased/Samric Mosswiggle.md","x":-849,"y":-284,"width":400,"height":150},
-		{"id":"a956eb1de9e99373","type":"text","text":"Voice: high, nervous, old\nAttitude: scared, guilty","x":-1099,"y":-94,"width":250,"height":80}
+		{"id":"30c4f10ec54cec1e","type":"file","file":"docs/Fanewick/People/Samric Mosswiggle.md","x":-849,"y":-284,"width":400,"height":150},
+		{"id":"a956eb1de9e99373","type":"text","text":"Voice: high, nervous, old\nAttitude: scared, guilty","x":-1099,"y":-94,"width":250,"height":80},
+		{"id":"9096bb163ecdb1c1","type":"file","file":"Images/Hyacynis, They Who Spread Small Blossoms.png","x":80,"y":-40,"width":467,"height":600},
+		{"id":"2761d3ee5d49f00f","type":"text","text":"Voice: Devine and womanly. old lady love\nAttitude: confident but worried","x":-223,"y":-28,"width":250,"height":148},
+		{"id":"7bcc002b5cc0577b","type":"file","file":"docs/Core Realms/Divinities/Hyacynis, They Who Spread Small Blossoms.md","x":114,"y":-388,"width":400,"height":294}
 	],
 	"edges":[]
 }
