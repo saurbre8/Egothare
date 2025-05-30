@@ -59,7 +59,8 @@ After the environment, the bee peeks out from the giant plants and the players n
 #### After Hyacynis
 The players should head back to [[Lenora]]. If not, improv. Here are some example encounters:
 
-An ambush in the forest by some angry and hungry bears: S1.01 [Link](https://freshcutgrass.app/)
+An ambush in the forest by some angry and hungry bears: S1.01 [Link](https://freshcutgrass.app/) 
+- This happened, players save the bear. it runs off, they don't kill one of its parents
 
 Roots that start attacking the players: S1.02
 
@@ -81,3 +82,15 @@ If they come to him with knowledge of note, he can get mad and tell the characte
 
 
 
+## Notes from session
+players are wondering why haven is in the forest
+curious of the deity.
+
+gaining trust of each other.
+
+betting game at tavern after getting back. 
+
+8 FEAR
+
+their next goal is to find the druid. 
+- Ethan should have an idea of the area of druid or know who to ask. Maybe he knows the direction out of town or the mayor to ask. 
