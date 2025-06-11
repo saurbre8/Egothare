@@ -66,6 +66,10 @@ Roots that start attacking the players: S1.02
 
 Haven guards that are defending something: S1.03
 
+Players end here, at the Broken Pick.
+
+----
+
 Once the players look into Samric, they will find his house empty. 
 SAMRIC'S HOUSE SEARCH CHECKS
 - PC can make an instinct role (13) to identify clues in the room. 
