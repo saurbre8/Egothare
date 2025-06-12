@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"f6ace2064224d3b2","type":"file","file":"Images/Capsule.png","x":-700,"y":-680,"width":267,"height":400},
+		{"id":"19d83d1593f27e3a","type":"file","file":"Images/Witch.png","x":-320,"y":-800,"width":283,"height":400},
+		{"id":"24a3929f962a94ec","type":"file","file":"Images/Cave.png","x":40,"y":-500,"width":377,"height":400}
+	],
+	"edges":[]
+}

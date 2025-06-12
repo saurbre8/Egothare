@@ -1,8 +1,5 @@
 {
 	"nodes":[
-		{"id":"793ae94c75711991","type":"file","file":"docs/Fanewick/People/Vellen Thistlehorn.md","x":-467,"y":-1460,"width":400,"height":560},
-		{"id":"a499a0813563570a","type":"text","text":"Voice: Deep, serious\nAttitude: Wants to protect the people","x":-654,"y":-860,"width":250,"height":100},
-		{"id":"362521782d479317","type":"file","file":"Images/Vellen Thistlehorn.png","x":-380,"y":-860,"width":313,"height":556},
 		{"id":"1110b1ca8a4ae339","type":"file","file":"Images/Samric Mosswiggle.png","x":-828,"y":-94,"width":379,"height":508},
 		{"id":"30c4f10ec54cec1e","type":"file","file":"docs/Fanewick/People/Samric Mosswiggle.md","x":-849,"y":-560,"width":400,"height":426},
 		{"id":"a956eb1de9e99373","type":"text","text":"Voice: high, nervous, old\nAttitude: scared, guilty","x":-1099,"y":-94,"width":250,"height":80},
@@ -11,7 +8,10 @@
 		{"id":"7bcc002b5cc0577b","type":"file","file":"docs/Core Realms/Divinities/Hyacynis, They Who Spread Small Blossoms.md","x":114,"y":-700,"width":400,"height":606},
 		{"id":"d95315ddc3426759","type":"file","file":"Images/Bees.png","x":-1399,"y":-900,"width":300,"height":400},
 		{"id":"a2b6f83a7119627e","type":"file","file":"Images/Veythari Mystery.png","x":-1606,"y":329,"width":357,"height":463},
-		{"id":"6e0ad80f6105350c","type":"text","text":"A mysterious figure\nVoice: Sly and quiet\nAttitude: serious, curious","x":-1880,"y":329,"width":250,"height":130}
+		{"id":"6e0ad80f6105350c","type":"text","text":"A mysterious figure\nVoice: Sly and quiet\nAttitude: serious, curious","x":-1880,"y":329,"width":250,"height":130},
+		{"id":"362521782d479317","type":"file","file":"Images/Vellen Thistlehorn.png","x":-320,"y":-860,"width":313,"height":556},
+		{"id":"793ae94c75711991","type":"file","file":"docs/Fanewick/People/Vellen Thistlehorn.md","x":-373,"y":-1460,"width":400,"height":560},
+		{"id":"a499a0813563570a","type":"text","text":"Voice: Deep, serious\nAttitude: Wants to protect the people","x":-623,"y":-860,"width":250,"height":100}
 	],
 	"edges":[]
 }
