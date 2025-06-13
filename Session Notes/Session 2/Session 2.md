@@ -15,7 +15,7 @@ If they talk to the mayor, [[Vellen Thistlehorn]], have him say they need Samric
 "We need him right now. Many people are hurt after the attack and he is our best healer. Do you think you can help find him..?"
 If they come to him with knowledge of note, he can get mad and tell the characters he will repay them if they help him. 
 
-If they ask bartender at the Broken Pick, He says yeah, Samric lives on the east side of town out towards the lake. He's never been there himself, as hes a *clank* lol doesnt need the help of a herbalist often. 
+If they ask bartender at the Broken Pick, He says yeah, Samric lives on the east side of town out towards the crater lake. He's never been there himself, as hes a *clank* lol doesnt need the help of a herbalist often. 
 
 If they find someone else in the bar, have them say similar things to the bartender. Just that he lives on the east side of town. 
 
@@ -54,6 +54,7 @@ If the players let the elf go, he tells Haven about the party. They will be reco
 
 ##### After Haven Camp
 Players return to [[Hyacynis, They Who Spread Small Blossoms]] after completing the tasks, she thanks them and gives them what they asked for. 
+
 Draedon: Information about the group in [[Fire's Shadow]]. Points him to rock that is the shape of a sword hilt. Blooming Execution.
 
 Hopper: Locket of the  Swarm. Shrubbler, tie it in somehow
@@ -62,7 +63,7 @@ Bobo: seed for seeking knowledge
 
 **The Locket of the Swarm**
 **Appearance**: A **bronze locket** shaped like a honeycomb. Inside: a **single bee** preserved in amber.
-**Activation**: Press the latch—the locket opens up and a flower blooms inside, attracting a **swarm of bees**.
+**Activation**: Press the latch—the locket opens up and a flower blooms inside, attracting a **swarm of bees**. Refreshes every Long Rest
 
 **Blooming Execution**:
 **Appearance**: A **small, ornate vial** of shimmering crimson liquid, swirling with tiny petals. Can be applied to a weapon to give the effect: 
@@ -75,3 +76,9 @@ A seed that slowly grows into a book that allows for a new spell. When you enter
 Players return to [[Vellen Thistlehorn]] with/without [[Samric Mosswiggle]]. 
 - [[Lenora]] remembers them, friends of the town now.
 - 15 coins each, points them to job board if they are looking for more work. 
+
+
+
+SESSION NOTES:
+Takes us to the night of Wednesday the 7th, at [[The Stone Flow Baths]].
+9 Fear

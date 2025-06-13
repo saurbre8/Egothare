@@ -14,8 +14,8 @@ The players need to look around the area. Without asking for the map or any info
 ##### Inside the cave
 Count-up to 4. Cave resembles a serpent's guts with glowing roots running along the walls. 
 	1. Split paths, one left and one right. Instinct roll (15): on a success, go the right way, countdown increases. On fail, dead end, come back and the vines have grown over the other entrance. Need a strength roll of 13 or magic fire. With hope, give them that there is a puddle of water at the end of the dead end.
-	2. Collapsed section, a hole in the floor is collapsed and goes down about 15 feet. It seems to lead into another part of the cave but you aren't sure. Depending on the actions, make a roll. Prob Agility to clear the jump (10). 
-	3. Flooded section: Agility (13) to swim through. Hopper will prob go first, if success with hope, root covered hole at bottom of flooded section could drain it. If someone fails to swim, take a stress and have to turn around. 
+	2. Collapsed section, a hole in the floor is collapsed and goes down about 15 feet. It seems to lead into another part of the cave but you aren't sure. Depending on the actions, make a roll. Prob Agility to clear the jump (12). 
+	3. Flooded section: Agility (15) to swim through. Hopper will prob go first, if success with hope, root covered hole at bottom of flooded section could drain it. If someone fails to swim, take a stress and have to turn around. 
 	4. Steam vents: Come into wider part of the tunnels, let players be creative with handling it and make a roll or downside. 
 
 Getting through countdown: Players should be beat-up and ready for a fight. 
@@ -32,4 +32,4 @@ Throughout cave:
 
 ##### Completion
 Reward: Free rests at the baths for life, they warm up and provide the full effects.
-The monks will be very grateful and provide their services forever for no cost. Pay each player 20 coins if they ask for more or up to you. Could give geothermic stones. 
+The monks will be very grateful and provide their services forever for no cost. Pay each player 30 coins if they ask for more or up to you. Could give geothermic stones. 

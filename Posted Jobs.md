@@ -1,5 +1,13 @@
 
 - Merchant cart transport (from a to b)
-- Overgrown rats in the mines
+	- Transport from [[Lenora]] to [[Soldon]] of mined iron ore. 
+	- Pays 100 coins each, provides food and rest during travel. Departing 25th of Seedmoon
+	- Expected week or so of travel. 
+- Overgrown spiders in the mines
+	- Lenora's deep mines are infested with large spiders. Need someone to clear them out. 
+	- 100 coins to whoever clears it, total sum. Property of mine must be left, but other loot can be obtained. 
 - Missing delivery girl from seamstress apprentice 
-- [[The Stone Flow Baths]] help needed, cooling baths
+	- Seamstress Ivana sent her apprentice to the [[The Stone Flow Baths]] to fix some canvas there, hasn't been seen since. 
+- Seeking bard for evening performance at [[The Broken Pick]].
+- Looking for fish supplier. 
+- Stablehand needed, pay in coin and ale
