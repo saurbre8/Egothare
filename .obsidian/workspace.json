@@ -87,6 +87,23 @@
             "id": "5134c516a3230136",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Homebrew Adversaries/Homebrew Monsters.canvas",
+                "viewState": {
+                  "x": -283.46296569824256,
+                  "y": -26.239999999999718,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Homebrew Monsters"
+            }
+          },
+          {
+            "id": "71f82431ba41446c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Homebrew Adversaries/Prairie Spider.md",
@@ -98,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -245,12 +262,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bc649daa4179878",
+  "active": "71f82431ba41446c",
   "lastOpenFiles": [
-    "Homebrew Adversaries/Homebrew Monsters.canvas",
+    "Homebrew Adversaries/Mossnolith.md",
     "Homebrew Adversaries/Prairie Spider.md",
+    "Homebrew Adversaries/Homebrew Monsters.canvas",
+    "Images/Mossnolith.png",
     "Homebrew Adversaries",
-    "Pasted image 20250622144245.png",
+    "Images/Prairie Spider.png",
     "Travel Mishaps.md",
     "Drinking Games.md",
     "docs/Fanewick/Locations/The Stone Flow Baths.md",
@@ -281,7 +300,6 @@
     "Images/Capsule.png",
     "Session Notes/Session 1/Samric Note.md",
     "docs/Fanewick/Locations/Lenora/Lenora.md",
-    "docs/Fanewick/Locations/Lenora/The Broken Pick.md",
     "Session Notes/Session 1/Lenora Characters.canvas",
     "docs/Core Realms/Divinities",
     "Images/Veythari Mystery.png",
@@ -293,7 +311,6 @@
     "docs/Haven",
     "docs/Fanewick",
     "Images",
-    "Images/Vellen Thistlehorn.png",
-    "Pasted image 20250528125927.png"
+    "Images/Vellen Thistlehorn.png"
   ]
 }
