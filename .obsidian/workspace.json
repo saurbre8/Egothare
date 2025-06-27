@@ -8,24 +8,77 @@
         "type": "tabs",
         "children": [
           {
+            "id": "e318081edb9f99f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreleased/Characters/Draedon Frostfire.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Draedon Frostfire"
+            }
+          },
+          {
             "id": "fbf24d9c7e82162c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Session Notes/Session 1/Lenora Characters.canvas",
-                "viewState": {
-                  "x": -353.03602611243144,
-                  "y": -580.383373013056,
-                  "zoom": -0.09278553987403615
-                }
+                "file": "Session Notes/Session 1/Session 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Lenora Characters"
+              "icon": "lucide-file",
+              "title": "Session 1"
+            }
+          },
+          {
+            "id": "3af0d708cde97205",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Posted Jobs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Posted Jobs"
+            }
+          },
+          {
+            "id": "e774f2a8e9e573e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quests/Q1 - Stone Baths Cooling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Q1 - Stone Baths Cooling"
             }
           },
           {
             "id": "050e97c21fdee8e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Session Notes/Session 1/Session 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Session 1"
+            }
+          },
+          {
+            "id": "e2353c06ecee11fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,79 +92,17 @@
             }
           },
           {
-            "id": "33434cba9fb64f6f",
+            "id": "21288492e5364d9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Fanewick/People/Vellen Thistlehorn.md",
+                "file": "Session Notes/Session 3/Session 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vellen Thistlehorn"
-            }
-          },
-          {
-            "id": "a1563d9139bf2bdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Session Notes/Session 2/Session 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Session 2"
-            }
-          },
-          {
-            "id": "23bf518a31a0cb15",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Homebrew Adversaries/Homebrew Monsters.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Homebrew Monsters"
-            }
-          },
-          {
-            "id": "5134c516a3230136",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Homebrew Adversaries/Homebrew Monsters.canvas",
-                "viewState": {
-                  "x": -283.46296569824256,
-                  "y": -26.239999999999718,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Homebrew Monsters"
-            }
-          },
-          {
-            "id": "71f82431ba41446c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homebrew Adversaries/Prairie Spider.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Prairie Spider"
+              "title": "Session 3"
             }
           }
         ],
@@ -236,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homebrew Adversaries/Prairie Spider.md",
+                "file": "Session Notes/Session 3/Session 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Prairie Spider"
+              "title": "Outline of Session 3"
             }
           }
         ],
@@ -262,55 +253,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71f82431ba41446c",
+  "active": "21288492e5364d9e",
   "lastOpenFiles": [
-    "Homebrew Adversaries/Mossnolith.md",
-    "Homebrew Adversaries/Prairie Spider.md",
-    "Homebrew Adversaries/Homebrew Monsters.canvas",
-    "Images/Mossnolith.png",
-    "Homebrew Adversaries",
-    "Images/Prairie Spider.png",
-    "Travel Mishaps.md",
-    "Drinking Games.md",
-    "docs/Fanewick/Locations/The Stone Flow Baths.md",
-    "Unreleased/Communities/Mycotyrant.md",
-    "Unreleased/Kreil Dirn.md",
-    "Unreleased/Archmage Phylax.md",
-    "Unreleased/Characters/Bobo Bananarama.md",
-    "Session Notes/Session 3/Session 3.md",
-    "Session Notes/Session 2/Session 2.md",
-    "docs/Fanewick/Communities/The Monks of Stacked Stones.md",
-    "Quests/Q1 - Stone Baths Cooling.md",
     "Quests/Cave Canvas.canvas",
-    "Session Notes/Session 2/Samric Note.md",
+    "Quests/Q1 - Stone Baths Cooling.md",
+    "Session Notes/Session 2/Session 2.md",
+    "Session Notes/Session 1/Session 1.md",
+    "Session Notes/Session 3/Session 3.md",
     "Session Notes/Session 3",
-    "docs/Core Realms/Realms Beyond.md",
-    "docs/Haven/Haven.md",
-    "docs/Fanewick/Communities/Veythari.md",
-    "Loot.md",
-    "docs/Fanewick/People/Samric Mosswiggle.md",
+    "Images/Prairie Spider.png",
+    "Images/Mossnolith.png",
+    "Homebrew Adversaries/Prairie Spider.md",
+    "Homebrew Adversaries/Mossnolith.md",
+    "Homebrew Adversaries/Homebrew Monsters.canvas",
+    "Homebrew Adversaries",
+    "Session Notes/Session 2/Samric Note.md",
+    "Session Notes/Session 1/Lenora Characters.canvas",
+    "Images/Vellen Thistlehorn.png",
     "Posted Jobs.md",
     "README.md",
-    "docs/Fanewick/Locations/Soldon.md",
-    "Session Notes/Session 1/Session 1.md",
-    "Session Notes/Session 2",
-    "Quests",
-    "Images/Witch.png",
+    "Travel Mishaps.md",
+    "Loot.md",
     "Images/Cave.png",
+    "Images/Witch.png",
     "Images/Capsule.png",
-    "Session Notes/Session 1/Samric Note.md",
-    "docs/Fanewick/Locations/Lenora/Lenora.md",
-    "Session Notes/Session 1/Lenora Characters.canvas",
-    "docs/Core Realms/Divinities",
+    "docs/Fanewick/Locations/The Stone Flow Baths.md",
+    "docs/Fanewick/Communities/The Monks of Stacked Stones.md",
+    "Unreleased/Kreil Dirn.md",
+    "Unreleased/Archmage Phylax.md",
+    "Unreleased/Communities/Mycotyrant.md",
+    "Unreleased/Characters/Bobo Bananarama.md",
+    "Quests",
+    "Session Notes/Session 2",
+    "Drinking Games.md",
     "Images/Veythari Mystery.png",
-    "Images/Hyacynis, They Who Spread Small Blossoms.png",
+    "Unreleased/Characters/Draedon Frostfire.md",
+    "Unreleased/Characters/Hopper.md",
+    "docs/Fanewick/Locations/Lenora/Lenora.md",
+    "docs/Fanewick/Locations/Lenora/The Broken Pick.md",
     "Images/Bees.png",
+    "docs/Fanewick/People/Samric Mosswiggle.md",
+    "docs/Fanewick/People/Vellen Thistlehorn.md",
+    "docs/Core Realms/Divinities/Hyacynis, They Who Spread Small Blossoms.md",
+    "Images/Hyacynis, They Who Spread Small Blossoms.png",
+    "docs/Core Realms/Divinities",
     "docs/Fanewick/Locations/Lenora",
     "Images/Samric Mosswiggle.png",
     "docs/Haven/People",
     "docs/Haven",
     "docs/Fanewick",
-    "Images",
-    "Images/Vellen Thistlehorn.png"
+    "Images"
   ]
 }
