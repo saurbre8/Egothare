@@ -10,7 +10,7 @@ D66
 - 31-32: Sprained Ankle
 	- Choose a player randomly, they fall and hurt their ankle, mark 1 HP.
 - 33-36: Landslide
-	- Part must pass a Agility roll (15) or take 1d10 damage (can use armor slot).
+	- Part must pass an Agility roll (15) or take 1d10 damage (can use armor slot).
 - 37-42: Heavy Rains
 	- A storm comes through the area, can do nothing or can cause landslide or quicksand. Players mark a Stress through being wet. 
 - 43-50: Fog

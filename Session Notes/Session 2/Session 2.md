@@ -57,9 +57,9 @@ Players return to [[Hyacynis, They Who Spread Small Blossoms]] after completing 
 
 Draedon: Information about the group in [[Fire's Shadow]]. Points him to rock that is the shape of a sword hilt. Blooming Execution.
 
-Hopper: Locket of the  Swarm. Shrubbler, tie it in somehow
+Hopper: Locket of the Swarm. Shrubbler, tie it in somehow
 
-Bobo: seed for seeking knowledge 
+Bobo: seed for seeking knowledge. It will help him in his mission to seek out the knowledge. 
 
 **The Locket of the Swarm**
 **Appearance**: A **bronze locket** shaped like a honeycomb. Inside: a **single bee** preserved in amber.
@@ -67,7 +67,7 @@ Bobo: seed for seeking knowledge
 
 **Blooming Execution**:
 **Appearance**: A **small, ornate vial** of shimmering crimson liquid, swirling with tiny petals. Can be applied to a weapon to give the effect: 
-On a critical hit, spend 1 Hope. Effect: The target’s wound bursts into flowering vines (separate 2d6 damage). When the target dies, their body becomes a garden—a Lady’s Veil grows from their heart. Roll a d100, on a 100, it is crimson.
+On a critical hit, spend 1 Hope. Effect: The target’s wound bursts into flowering vines (additional 2d6 damage). When the target dies, their body becomes a garden—a Lady’s Veil grows from their heart. Roll a d100, on a 100, it is crimson.
 Can be refilled by combining a crimson Lady's Veil and boiling honey in the vial.
 
 **Eden's Garden**: 
@@ -75,7 +75,7 @@ A seed that slowly grows into a book that allows for a new spell. When you enter
 
 Players return to [[Vellen Thistlehorn]] with/without [[Samric Mosswiggle]]. 
 - [[Lenora]] remembers them, friends of the town now.
-- 15 coins each, points them to job board if they are looking for more work. 
+- 25 coins each, points them to job board if they are looking for more work. 
 
 
 

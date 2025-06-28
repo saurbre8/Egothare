@@ -52,5 +52,67 @@ Agility roll to go through (20), taking damage if not passing and not getting th
 Too many to hack away at them, burning could cause a forest fire. 
 Try to make them go back. 
 
-#### Point F - Verdant Hollow
-An abandoned and overgrown small town. There is a few buildings scattered in close proximity, now have vines and mushrooms covering and growing from the roofs. 
+##### Point F - Verdant Hollow
+An abandoned and overgrown small town. There are a few buildings scattered in close proximity, now have vines and mushrooms covering and growing from the roofs. It's an eerie town, an echo of the days before the Witherwild. 
+If the players want to search buildings there are some options:
+- A herbalist building, a common profession in this town
+	- **Varik Leaves**, dried from being there for a while. Some wilted.
+	- Bundles of dried lavender – tied with wax-stiffened twine, still faintly fragrant
+	- **Crushed charcoal in clay bowls** – used to bind poultices or filter water
+	- Jars of pickled roots – labeled “fever,” “tooth ache,” and “unknown”
+	- Sachets of dried leaves and bark chips – some are chewed at by bugs
+	- Pressed flower scrapbooks – beautiful but mold-spotted pages, with some names faded
+	- Tea mugs, chipped and or dirty
+	- HEALTH POTION RECIPIE
+* An old family home, it's clear someone has been staying here recently
+	* A carved wooden children's doll, laying next to a bedroll
+	* A extinguished fire rests in the fireplace of the home, charcoal
+	* A skinned rabbit with another uncooked one sitting next to it on a stick. 
+	* Not much else, just old furniture and mundane items
+
+ATTACKED - At some point have the players get jumped by the Withered Person
+A person busts into the room, their skin is covered in bark and fungus. They make a gurgling noise before running at the PCs. Won't respond to attempts to communicate. Just seeks to consume.
+
+##### Point G - Hive
+FIGHTS HERE: 
+	- Haven soldiers outside the area, S3.02 Combat:
+		There is destroyed tents and empty cages around. Some soldiers are cleaning up the area. Not many left to be guarding the area. One guard grabs a net.
+		Can make it clear they are packing and readying to leave.
+	* Hive / Capture Site: A huge beehive on the ground with a destroyed building and tents. 
+		After fighting the guards, Samric is inside the main large tent in the camp. He pleads for his life, begging but has no defense really.
+		Samric explains that the Haven army is capturing the bees for the fields. They pollinate the [[Lady's Veil]] and help it grow. They believe that it will possibly create a greater number of crimson ones. He has been helping them calm the bees with his salve. 
+		They were trying to calm and take the queen bee when the bees went crazy and attacked and broke out of the hive.
+		Motions towards the hive and the broken side of the wall when talking about queen.
+
+Ideas: 
+Players can help sabotage the camp. They can explore the hive and get jumped by a muscle bee defending the dying queen. This hive is toast but its a bigger operation, why Samric is here still. 
+
+Maybe Samric asks for the players to stop the larger operation. He doesn't have knowledge of other camps though. (maybe a spy??). Desperate to get his wife Marsha back from the fields.
+He also asks for an escort back to Lenora, where he will own up to Vellen and ask for protection. 
+If players don't have Health Potion recipe yet, give it as reward.
+
+
+#### After Haven Camp
+Players return to [[Hyacynis, They Who Spread Small Blossoms]] after completing the tasks, she thanks them and gives them what they asked for. 
+
+Draedon: Information about the group in [[Fire's Shadow]]. Points him to rock that is the shape of a sword hilt. Blooming Execution.
+
+Hopper: Locket of the Swarm. Shrubbler, tie it in somehow. Hyacynis tells him to protect the nature of Fanewick. 
+
+Bobo: seed for seeking knowledge. It will help him in his mission to seek out the knowledge. 
+
+**The Locket of the Swarm**
+**Appearance**: A **bronze locket** shaped like a honeycomb. Inside: a **single bee** preserved in amber.
+**Activation**: Press the latch—the locket opens up and a flower blooms inside, attracting a **swarm of bees**. Refreshes every Long Rest
+
+**Blooming Execution**:
+**Appearance**: A **small, ornate vial** of shimmering crimson liquid, swirling with tiny petals. Can be applied to a weapon to give the effect: 
+On a critical hit, spend 1 Hope. Effect: The target’s wound bursts into flowering vines (additional 2d6 damage). When the target dies, their body becomes a garden—a Lady’s Veil grows from their heart. Roll a d100, on a 100, it is crimson.
+Can be refilled by combining a crimson Lady's Veil and boiling honey in the vial.
+
+**Eden's Garden**: 
+A seed that slowly grows into a book that allows for a new spell. When you enter a place of **great magical or spiritual significance**, the seed begins to buzz faintly.
+
+Players return to [[Vellen Thistlehorn]] with/without [[Samric Mosswiggle]]. 
+- [[Lenora]] remembers them, friends of the town now.
+- 25 coins each, points them to job board if they are looking for more work. 
